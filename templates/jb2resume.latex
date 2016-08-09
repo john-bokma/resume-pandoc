@@ -1,0 +1,84 @@
+% LaTeX Resume Pandoc Template jb2resume.latex
+%
+% Copyright (c) 2016, John Bokma
+% Based on Jason Blevins' LaTeX CV Template;
+%       http://jblevins.org/projects/cv-template/
+
+\documentclass[$if(fontsize)$$fontsize$$else$10pt$endif$,letterpaper]{article}
+
+\usepackage{hyperref}
+\usepackage{geometry}
+\usepackage{enumitem}
+\usepackage{underscore}
+\usepackage[parfill]{parskip}
+\usepackage[$if(fontenc)$$fontenc$$else$T1$endif$]{fontenc}
+\usepackage[utf8]{inputenc}
+
+\def\name{$name$}
+
+% The following metadata will show up in the PDF properties
+\hypersetup{
+  colorlinks = true,
+  urlcolor=$if(urlcolor)$$urlcolor$$else$blue$endif$,
+  linkcolor=$if(linkcolor)$$linkcolor$$else$magenta$endif$,  
+  pdfauthor = {\name},
+  pdfkeywords = {$keywords$},
+  pdftitle = {\name: Curriculum Vitae},
+  pdfsubject = {Curriculum Vitae},
+  pdfpagemode = UseNone
+}
+
+\geometry{
+  body={6.5in, 9.0in},
+  left=1.0in,
+  top=1.0in
+}
+
+% Page number is top right, and it is possible to control the rest of
+% the header.
+\pagestyle{myheadings}
+\markright{\name}
+\thispagestyle{empty}
+
+% Custom section fonts
+\usepackage{sectsty}
+\sectionfont{\rmfamily\mdseries\Large}
+\subsectionfont{\rmfamily\mdseries\itshape\large}
+
+% Section numbers or not (default)
+$if(numbersections)$
+\setcounter{secnumdepth}{5}
+$else$
+\setcounter{secnumdepth}{0}
+$endif$
+
+% By putting an empty \item[] at the start of the list, the list
+% starts on a new line.
+\setlist[itemize]{leftmargin=1em,label={--},before=\item[]}
+
+\setlist[description]{leftmargin=0em, style=sameline}
+
+% Don't use monospace font for URLs
+\urlstyle{same}
+
+\begin{document}
+
+% Place name at left
+{\huge \name}
+
+\bigskip
+
+$if(left-column)$
+\begin{minipage}[t]{0.495\textwidth}
+  $for(left-column)$$left-column$$sep$ \\ $endfor$
+\end{minipage} % Don't use empty lines after \end and the next \begin{minipage}.
+$endif$
+$if(right-column)$
+\begin{minipage}[t]{0.495\textwidth}
+  $for(right-column)$$right-column$$sep$ \\ $endfor$
+\end{minipage}
+$endif$
+
+$body$
+
+\end{document}
