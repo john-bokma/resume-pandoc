@@ -11,6 +11,7 @@
 \usepackage{enumitem}
 \usepackage{underscore}
 \usepackage[parfill]{parskip}
+\usepackage{lmodern}
 \usepackage[$if(fontenc)$$fontenc$$else$T1$endif$]{fontenc}
 \usepackage[utf8]{inputenc}
 
