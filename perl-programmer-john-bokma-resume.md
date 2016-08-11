@@ -234,6 +234,16 @@ Scalable Machine Learning
   ;
   [verified certificate (PDF)](https://s3.amazonaws.com/verify.edx.org/downloads/90d3c61ff8bb49d080c914dbfa1aa1e7/Certificate.pdf).
 
+# GitHub
+
+resume-pandoc
+
+ : LaTeX resume template for Pandoc based on a LaTeX resume by Jason
+R. Blevins. The template can be used to create either a LaTeX or PDF
+file given a Markdown file as input. The template was used to create
+this resume. Repository:
+[resume-pandoc](https://github.com/john-bokma/resume-pandoc).
+
 # Miscellaneous
 
 Developing Web Applications with Apache, MySQL, memcached, and Perl
