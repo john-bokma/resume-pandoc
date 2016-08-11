@@ -3,6 +3,8 @@
 % Copyright (c) 2016, John Bokma
 % Based on Jason Blevins' LaTeX CV Template;
 %       http://jblevins.org/projects/cv-template/
+%
+% GitHub: https://github.com/john-bokma/resume-pandoc
 
 \documentclass[$if(fontsize)$$fontsize$$else$10pt$endif$,letterpaper]{article}
 
