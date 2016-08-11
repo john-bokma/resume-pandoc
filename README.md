@@ -55,3 +55,10 @@ numbersections
 # Example PDF
 
 See [http://castleamber.com/documents/perl-programmer-john-bokma-resume.pdf](http://castleamber.com/documents/perl-programmer-john-bokma-resume.pdf).
+
+# Credits
+
+- Jason R. Blevins for making the LaTeX resume example that inspired this
+  template.
+- Christoph Frings and Andrew for their help with description list; reference
+  [enumitem: multiline label with text following label - TeX - LaTeX Stack Exchange](https://tex.stackexchange.com/questions/323903/enumitem-multiline-label-with-text-following-label).
