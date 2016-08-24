@@ -91,12 +91,12 @@ Senior Perl Developer; February 2013 - December 2015; part-time
 
 Skills used:
 
-:   Modern Perl, LWP::UserAgent, Log::Log4perl, HTML::TreeBuilder,
+: Modern Perl, LWP::UserAgent, Log::Log4perl, HTML::TreeBuilder,
     Test::Most, Test::More, Test::Output, JSON::XS, DBI, Try::Tiny,
-    XML::Parser, XML::Writer, Email::Sender, Text::CSV~X~S,
-    MaxMind::DB::Reader, Dancer2, MySQL, RelaxNG, Apache Ant, git,
-    VirtualBox, nginx, cron, Emacs Org Mode, OpenSSL, iptables, HTML,
-    CSS, GNU Privacy Guard (GPG).
+    XML::Parser, XML::Writer, Email::Sender, Text::CSV_XS,
+    MaxMind::DB::Reader, Dancer2, MySQL, RelaxNG, XSLT, Apache Ant,
+    git, VirtualBox, nginx, cron, Emacs Org Mode, OpenSSL, iptables,
+    HTML, CSS, GNU Privacy Guard (GPG).
 
 Role overview:
 
@@ -134,6 +134,10 @@ Role overview:
         CSV) in Org Mode format (Emacs).
 
     -   Designing Relax NG schemata to validate XML files.
+	
+	-   Writing XSLT to transform XML output to older formats in order
+	    to support client programs that require an older format prior
+	    to being safely updated.
 
     -   Writing extensive technical documentation in Org Mode format
         (Emacs).
