@@ -3,6 +3,7 @@ name: John Bokma
 keywords: perl, modern perl, cpan, cgi, nginx, apache, algorithms,
     freelance, msc, senior perl developer, xml, mysql, crawling, scraping
 left-column:
+  - 'Senior Perl Programmer, remote only'
   - 'Email: [contact@johnbokma.com](mailto:contact@johnbokma.com)'
   - 'Homepage: [http://johnbokma.com/](http://johnbokma.com/)'
   - 'Last Updated: \today'
@@ -10,8 +11,9 @@ left-column:
 
 # Summary
 
-I am a freelance Senior Perl Developer with over 20 years' experience, including
-exposure to MySQL, Apache HTTP Server, Python, XML, RelaxNG, HTML, and CSS.
+I am a freelance Senior Perl Developer with over 20 years' experience,
+including exposure to MySQL, Nginx, Apache HTTP Server, Python, XSLT,
+XML, RelaxNG, HTML, and CSS.
 
 I'm an active proponent of Modern Perl. I like writing technical
 documentation and unit tests; both have saved my customers and me a
@@ -20,8 +22,8 @@ possible, hence I often start a project with researching available
 (partial) solutions on CPAN.
 
 My personal development projects include a blog that's generated from
-XML files using Perl. I am currently working on a new version using Markdown
-for input instead.
+XML files using Perl. I am currently working on a new version using
+Markdown for input instead.
 
 # Skills
 
@@ -72,10 +74,18 @@ Postfix, Dovecot, OpenSSH, MySQL.
 
 I like to write technical documentation. I prefer to use mark up
 languages like Org Mode (Emacs), Markdown, LaTeX. This makes version
-control and searching from the command line easy. Plain text also makes
-it very easy to generate code from documentation, and vice versa. Where
-required, PDF versions can be generated using tools like Emacs, Pandoc,
-pdflatex.
+control and searching from the command line easy. Plain text also
+makes it very easy to generate code from documentation, and vice
+versa. Where required, PDF versions can be generated using tools like
+Emacs, Pandoc, pdflatex.
+
+## Remote Work
+
+I exclusively work remotely. Over the past years I have worked with
+customers in Japan, USA, The Netherlands, and Canada. Working from
+home provides me with a very productive environment with a minimal
+number of interruptions. I use the Internet to stay in touch with
+peers and my craft.
 
 ## Other Skills
 
@@ -87,7 +97,7 @@ SEO.
 
 ## RedSocks - Malicious Threat Detection
 
-Senior Perl Developer; February 2013 - December 2015; part-time
+Senior Perl Developer; February 2013 - December 2015; remote, part-time
 
 Skills used:
 
@@ -157,7 +167,7 @@ Interesting challenges:
 
 ## SF Metrics
 
-Senior Perl Developer; August 2015 - Present; part-time
+Senior Perl Developer; August 2015 - Present; remote, part-time
 
 Skills used:
 
@@ -185,7 +195,7 @@ Interesting challenges:
 
 ## Eyeforyou
 
-Senior Perl Developer; November 2011 - Present; part-time
+Senior Perl Developer; November 2011 - Present; remote, part-time
 
 Skills used:
 
@@ -257,7 +267,7 @@ Developing Web Applications with Apache, MySQL, memcached, and Perl
 Modern Perl
 
 : I did some voluntarily reviewing, and am listed in the Credits
-  section.
+  section. [Electronic versions](http://onyxneon.com/books/modern_perl/).
 
 A Retrospective Study of Polyallergy as A Marker of Non-Epileptic Seizures in the Epilepsy Monitoring Unit
 	  
@@ -271,3 +281,7 @@ Optimization of molecular methods and statistical procedures for forensic finger
   Journal of Microbiology (IRJM); ISSN: 2141-5463; Vol. 3(11) pp.
   363-372; November 2012;
   [full length research paper (PDF)](http://www.interesjournals.org/full-articles/optimization-of-molecular-methods-and-statistical-procedures-for-forensic-fingerprinting-of-microbial-soil-communities.pdf?view=inline)
+
+Languages
+
+: Dutch (native), English (fluent)
