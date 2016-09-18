@@ -1,9 +1,12 @@
 ---
 name: John Bokma
 keywords: perl, modern perl, cpan, cgi, nginx, apache, algorithms,
-    freelance, msc, senior perl developer, xml, mysql, crawling, scraping
+    freelance, msc, senior perl developer, xml, xslt, mysql, crawling, 
+	scraping, remote, parsing
 left-column:
-  - 'Senior Perl Programmer, remote only'
+  - 'Senior Perl Programmer'
+  - 'Remote Only'
+right-column:
   - 'Email: [contact@johnbokma.com](mailto:contact@johnbokma.com)'
   - 'Homepage: [http://johnbokma.com/](http://johnbokma.com/)'
   - 'Last Updated: \today'
