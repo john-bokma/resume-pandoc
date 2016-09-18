@@ -34,7 +34,7 @@ left-column
 
 right-column
  : a list of lines you want in the right column, directly under the
-   name on the first page. Not used in my example.
+   name on the first page.
    
 fontsize
  : default `10pt`.
