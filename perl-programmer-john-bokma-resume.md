@@ -188,7 +188,7 @@ Role overview:
       reponsible for writing all the technical documentation,
       specifications, and example SQL queries. (current)
 
-    - Developing a program to import an "JSON per line" database dump
+    - Developing a program to import a "JSON per line" database dump
 	  into a MySQL database. Reverse engineering of the file format,
 	  design of the 70+ MySQL database tables, logic to avoid
 	  duplicate code.
@@ -205,7 +205,7 @@ Interesting challenges:
 :   The database dump program required several refactoring steps to
     avoid code repetition. Great care had to be taken to verify the
     types of JSON data and to verify all IDs had the correct type and
-    where present in the dump.
+    were present in the dump.
 
 ## Eyeforyou
 
