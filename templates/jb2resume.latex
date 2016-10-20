@@ -37,6 +37,12 @@
   top=1.0in
 }
 
+% Fix  for "! Undefined control sequence. <recently read> \tightlist",
+% see: https://github.com/osener/markup.rocks/issues/4
+% I have this issue with Pandoc 1.17.2
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+
 % Page number is top right, and it is possible to control the rest of
 % the header.
 \pagestyle{myheadings}
