@@ -187,6 +187,7 @@ Role overview:
       desired data and statistics in a MySQL database. I am also
       reponsible for writing all the technical documentation,
       specifications, and example SQL queries. (current)
+
     - Developing a program to import an "JSON per line" database dump
 	  into a MySQL database. Reverse engineering of the file format,
 	  design of the 70+ MySQL database tables, logic to avoid
