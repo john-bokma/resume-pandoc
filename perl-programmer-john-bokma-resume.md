@@ -275,7 +275,7 @@ this resume. Repository:
 amazon-list
 
  : This repository currently contains a Perl module, Amazon::List, and
-a small Perl program which uses the module to obtain information from
+a small Perl program which uses this module to obtain information from
 items on an Amazon list and print those formatted to
 `stdout`. Repository:
 [amazon-list](https://github.com/john-bokma/amazon-list)
