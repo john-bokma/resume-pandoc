@@ -272,6 +272,14 @@ file given a Markdown file as input. The template was used to create
 this resume. Repository:
 [resume-pandoc](https://github.com/john-bokma/resume-pandoc).
 
+amazon-list
+
+ : This repository currently contains a Perl module, Amazon::List, and
+a small Perl program which uses the module to obtain information from
+items on an Amazon list and print those formatted to
+`stdout`. Repository:
+[amazon-list](https://github.com/john-bokma/amazon-list)
+
 # Miscellaneous
 
 Developing Web Applications with Apache, MySQL, memcached, and Perl
