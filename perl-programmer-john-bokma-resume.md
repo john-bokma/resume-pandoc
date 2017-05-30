@@ -48,7 +48,7 @@ Web Scraping
 Parsing
 
 : Besides parsing HTML I’ve also experience with parsing XML, several
-  custom formats and domain specific languages (DSLs).
+  custom formats and domain-specific languages (DSLs).
 
 Data Munging
 
