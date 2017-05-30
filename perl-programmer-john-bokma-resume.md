@@ -103,6 +103,43 @@ HTML, CSS, Search Engine Optimization (SEO).
 
 # Recent Projects
 
+## SF Metrics
+
+Senior Perl Developer; August 2015 - Present; remote, part-time
+
+Skills used:
+
+:   Modern Perl, LWP::UserAgent, Log::Log4perl, Test::Most, Text::Diff,
+    XML::Parser, DBI, Config::Tiny, Try::Tiny, URI, JSON, git, MySQL,
+    GitHub, Emacs Org Mode, Markdown, SEO.
+
+Role overview:
+
+:   - The development of a web crawler that downloads
+      XML data, verifies this data, gathers some statistics, and stores
+      desired data and statistics in a MySQL database. I am also
+      reponsible for writing all the technical documentation,
+      specifications, and example SQL queries. (current)
+
+    - Developing a program to import a "JSON per line" database dump
+	  into a MySQL database. Reverse engineering of the file format,
+	  design of the 70+ MySQL database tables, logic to avoid
+	  duplicate code.
+
+Interesting challenges:
+
+:   Because the web crawler program downloads data from the Internet it
+    must be able to handle timeouts, partial downloads, etc. Moreover
+    the XML parser must be able to distinguish between errors that can
+    be safely ignored because they won’t affect the desired data much,
+    and fatal errors. As a single crawl can gather a lot of data the
+    MySQL database must be designed to deal with querying tens of
+    millions of rows of data in mind.
+:   The database dump program required several refactoring steps to
+    avoid code repetition. Great care had to be taken to verify the
+    types of JSON data and to verify all IDs had the correct type and
+    were present in the dump.
+
 ## RedSocks - Malicious Threat Detection
 
 Senior Perl Developer; February 2013 - December 2015; remote, part-time
@@ -172,43 +209,6 @@ Interesting challenges:
     text and convert it to, for example, PDF. Due to the asynchonous
     nature of the various programs avoiding race conditions is
     mandatory.
-
-## SF Metrics
-
-Senior Perl Developer; August 2015 - Present; remote, part-time
-
-Skills used:
-
-:   Modern Perl, LWP::UserAgent, Log::Log4perl, Test::Most, Text::Diff,
-    XML::Parser, DBI, Config::Tiny, Try::Tiny, URI, JSON, git, MySQL,
-    GitHub, Emacs Org Mode, Markdown, SEO.
-
-Role overview:
-
-:   - The development of a web crawler that downloads
-      XML data, verifies this data, gathers some statistics, and stores
-      desired data and statistics in a MySQL database. I am also
-      reponsible for writing all the technical documentation,
-      specifications, and example SQL queries. (current)
-
-    - Developing a program to import a "JSON per line" database dump
-	  into a MySQL database. Reverse engineering of the file format,
-	  design of the 70+ MySQL database tables, logic to avoid
-	  duplicate code.
-
-Interesting challenges:
-
-:   Because the web crawler program downloads data from the Internet it
-    must be able to handle timeouts, partial downloads, etc. Moreover
-    the XML parser must be able to distinguish between errors that can
-    be safely ignored because they won’t affect the desired data much,
-    and fatal errors. As a single crawl can gather a lot of data the
-    MySQL database must be designed to deal with querying tens of
-    millions of rows of data in mind.
-:   The database dump program required several refactoring steps to
-    avoid code repetition. Great care had to be taken to verify the
-    types of JSON data and to verify all IDs had the correct type and
-    were present in the dump.
 
 ## Eyeforyou
 
