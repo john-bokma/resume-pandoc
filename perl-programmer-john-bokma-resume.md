@@ -52,8 +52,8 @@ Parsing
 
 Data Munging
 
-: Another task that often is assigned to me up is the conversion of
-  data from one format to another; including data cleaning and
+: Another task that often is assigned to me is the conversion of data
+  from one format to another; including data cleaning and
   verification. For example, modifying the text output of a legacy
   application in such a way that it’s suitable to be printed on newly
   designed labels. Often the input format has to be reverse
