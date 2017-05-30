@@ -68,13 +68,13 @@ Testing
 
 ## Systems Administration
 
-My main development environment is currently Ubuntu 15.10 running in a
-virtual machine on OS X. My router runs OpenWrt, and I use a fanless
-computer to study FreeBSD. I also use two different VPS providers for
-hosting my websites. I do the administration of each of those systems,
-e.g. updates, firewall rules and other security related tasks,
-installing and configuring software e.g. Apache HTTP server, nginx,
-Postfix, Dovecot, OpenSSH, MySQL.
+My main development environment is currently Ubuntu 17.04 Zesty Zapus
+running in a virtual machine on OS X. My router runs OpenWrt, and I
+use a fanless computer to study FreeBSD. I also use two different VPS
+providers for hosting my websites. I do the administration of each of
+those systems, e.g. updates, firewall rules, and other security
+related tasks, installing and configuring software e.g. Apache HTTP
+server, Nginx, Postfix, Dovecot, OpenSSH, and MySQL.
 
 ## Documentation
 
