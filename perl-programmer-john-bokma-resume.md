@@ -97,9 +97,9 @@ Subversion, and Github.
 
 ## Other Skills
 
-I would be happy to discuss my experience with and exposure to: Python,
-MySQL, XML, XSLT, XSL-FO, RelaxNG, Apache HTTP Server, nginx, HTML, CSS,
-SEO.
+I would be happy to discuss my experience with and exposure to:
+Python, MySQL, XML, XSLT, XSL-FO, RelaxNG, Apache HTTP Server, Nginx,
+HTML, CSS, Search Engine Optimization (SEO).
 
 # Recent Projects
 
