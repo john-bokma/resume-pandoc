@@ -15,18 +15,19 @@ right-column:
 # Summary
 
 I am a freelance Senior Perl Developer with over 20 years' experience,
-including exposure to MySQL, Nginx, Apache HTTP Server, Python, XSLT,
-XML, RelaxNG, HTML, and CSS.
+including exposure to Git, MySQL, Nginx, Apache HTTP Server, Python,
+XSLT, XML, RelaxNG, HTML, and CSS.
 
 I'm an active proponent of Modern Perl. I like writing technical
 documentation and unit tests; both have saved my customers and me a
-lot of time over the years. I prefer to reuse code as much as
+lot of time over the years. I prefer to reuse tested code as much as
 possible, hence I often start a project with researching available
-(partial) solutions on CPAN.
+solutions on CPAN.
 
-My personal development projects include a blog that's generated from
-XML files using Perl. I am currently working on a new version using
-Markdown for input instead.
+My personal development projects consist of several in-house tools,
+including a static website and blog generator using XML as input
+format.  Currently, I am working on a new version using Markdown for
+input instead.
 
 # Skills
 
