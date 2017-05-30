@@ -109,9 +109,9 @@ Senior Perl Developer; August 2015 - Present; remote, part-time
 
 Skills used:
 
-:   Modern Perl, LWP::UserAgent, Log::Log4perl, Test::Most, Text::Diff,
-    XML::Parser, DBI, Config::Tiny, Try::Tiny, URI, JSON, git, MySQL,
-    GitHub, Emacs Org Mode, Markdown, SEO.
+: Modern Perl, LWP::UserAgent, Log::Log4perl, Test::Most, Text::Diff,
+    XML::Parser, DBI, Config::Tiny, Try::Tiny, Path::Tiny, Plack, JSON,
+    git, MySQL, GitHub, Emacs Org Mode, Markdown, Nginx, SEO.
 
 Role overview:
 
@@ -125,6 +125,9 @@ Role overview:
 	  into a MySQL database. Reverse engineering of the file format,
 	  design of the 70+ MySQL database tables, logic to avoid
 	  duplicate code.
+
+    - Developing several tools for analyzing search engine result
+      pages (SERPs).
 
 Interesting challenges:
 
