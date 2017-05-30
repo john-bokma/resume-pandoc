@@ -35,13 +35,15 @@ input instead.
 
 Web Scraping
 
-: Over the years many projects I've been working on involved parsing
-  crawled data and storing the required result. I like challenges like
-  how to make web crawlers robust. I prefer strict parsing of HTML,
-  with many checks and extensive logging using Log::Log4perl. This way
-  changes to HTML, which often occur in my experience, are detected
-  early and collecting invalid data or missing additional data might
-  be avoided.
+: Over the years many projects I've been working on involved crawling,
+  caching, parsing, and storing the desired result in a database.  I
+  like the challenges such projects offer, like making the web
+  crawlers robust and be able to deal with the intricacies of The
+  Internet and its data. Regarding the latter, this is why I prefer
+  strict parsing of data, with many checks and extensive logging using
+  Log::Log4perl and good test coverage. This way changes to HTML,
+  which often occurs in my experience, are detected early and
+  collecting invalid data or missing additional data might be avoided.
 
 Parsing
 
