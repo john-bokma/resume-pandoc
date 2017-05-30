@@ -78,12 +78,12 @@ server, Nginx, Postfix, Dovecot, OpenSSH, and MySQL.
 
 ## Documentation
 
-I like to write technical documentation. I prefer to use mark up
-languages like Org Mode (Emacs), Markdown, LaTeX. This makes version
-control and searching from the command line easy. Plain text also
-makes it very easy to generate code from documentation, and vice
-versa. Where required, PDF versions can be generated using tools like
-Emacs, Pandoc, pdflatex.
+I like to write technical documentation. I prefer to use markup
+languages like Org Mode (Emacs), Markdown, LaTeX. The use of plain
+text formatting makes version control and searching from the command
+line easily. Plain text also makes it very easy to generate code from
+the documentation and vice versa. Where required, PDF versions can be
+generated using tools like Emacs, Pandoc, pdflatex.
 
 ## Remote Work
 
