@@ -52,6 +52,19 @@ numbersections
  : number sections, default off. Can also be controlled using the
  `pandoc` option `-N, --number-sections`.
 
+name-color
+ : the SVG name of the font color used for your name on the
+ resume. For example `DarkSlateGray`. Note that this option
+ also changes the font used for your name to bold and sans serif.
+
+section-color
+ : the SVG name of the font color used for sections. For example
+ `Tomato`.  Note that this option also changes the section font to
+ bold and sans serif.
+
+Regarding the last two options: if you just want to change the font to
+sans serif bold you can just use the color `black`.
+
 # Example PDF
 
 See [http://castleamber.com/documents/perl-programmer-john-bokma-resume.pdf](http://castleamber.com/documents/perl-programmer-john-bokma-resume.pdf).

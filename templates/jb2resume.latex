@@ -1,6 +1,6 @@
 % LaTeX Resume Pandoc Template jb2resume.latex
 %
-% Copyright (c) 2016, John Bokma
+% Copyright (c) 2016-2017, John Bokma
 % Based on Jason Blevins' LaTeX CV Template;
 %       http://jblevins.org/projects/cv-template/
 %
@@ -14,9 +14,11 @@
 \usepackage{underscore}
 \usepackage[parfill]{parskip}
 \usepackage{lmodern}
+\usepackage[svgnames]{xcolor}
 \usepackage[$if(fontenc)$$fontenc$$else$T1$endif$]{fontenc}
 \usepackage[utf8]{inputenc}
 
+% Your name on the resume
 \def\name{$name$}
 
 % The following metadata will show up in the PDF properties
@@ -51,7 +53,11 @@
 
 % Custom section fonts
 \usepackage{sectsty}
+$if(section-color)$
+\sectionfont{\color{$section-color$}\sffamily\bfseries\Large}
+$else$
 \sectionfont{\rmfamily\mdseries\Large}
+$endif$
 \subsectionfont{\rmfamily\mdseries\itshape\large}
 
 % Section numbers or not (default)
@@ -73,7 +79,11 @@ $endif$
 \begin{document}
 
 % Place name at left
+$if(name-color)$
+{\huge\color{$name-color$}\sffamily\bfseries \name}
+$else$
 {\huge \name}
+$endif$
 
 \bigskip
 

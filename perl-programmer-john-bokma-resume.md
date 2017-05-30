@@ -10,6 +10,8 @@ right-column:
   - 'Email: [contact@johnbokma.com](mailto:contact@johnbokma.com)'
   - 'Homepage: [http://johnbokma.com/](http://johnbokma.com/)'
   - 'Last Updated: \today'
+name-color: DarkSlateGray
+section-color: Tomato
 ...
 
 # Summary
