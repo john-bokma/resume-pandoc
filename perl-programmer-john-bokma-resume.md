@@ -87,13 +87,13 @@ generated using tools like Emacs, Pandoc, pdflatex.
 
 ## Remote Work
 
-I exclusively work remotely. Over the past years I have worked with
+I exclusively work remotely. Over the past years, I have worked with
 customers in Japan, USA, The Netherlands, and Canada. Working from
-home provides me with a very productive environment with a minimal
-number of interruptions. I use the Internet to stay in touch with
-peers and my craft. I prefer to communicate using email. I have
-experience with encrypted email using GnuPG, SSH with public key
-encryption, Git, Subversion, and Github.
+home provides me with a productive environment with a minimal number
+of interruptions. I use the Internet to stay in touch with peers and
+my craft. I prefer to communicate using email. I have experience with
+encrypted email using GnuPG, SSH with public key encryption, Git,
+Subversion, and Github.
 
 ## Other Skills
 
