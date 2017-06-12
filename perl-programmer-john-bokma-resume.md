@@ -7,8 +7,9 @@ left-column:
   - 'Senior Perl Programmer'
   - 'Remote Only'
 right-column:
-  - 'Email: [contact@johnbokma.com](mailto:contact@johnbokma.com)'
-  - 'Homepage: [http://johnbokma.com/](http://johnbokma.com/)'
+  - 'Email: [john@castleamber.com](mailto:john@castleamber.com)'
+  - 'Homepage: [http://castleamber.com/](http://castleamber.com/)
+  - 'Personal Site: [http://johnbokma.com/](http://johnbokma.com/)'
   - 'Last Updated: \today'
 name-color: DarkSlateGray
 section-color: Tomato
@@ -40,26 +41,27 @@ Web Scraping
 : Over the years many projects I've been working on involved crawling,
   caching, parsing, and storing the desired result in a database.  I
   like the challenges such projects offer, like making the web
-  crawlers robust and be able to deal with the intricacies of The
+  crawlers robust and be able to deal with the intricacies of the
   Internet and its data. Regarding the latter, this is why I prefer
   strict parsing of data, with many checks and extensive logging using
-  Log::Log4perl and good test coverage. This way changes to HTML,
-  which often occurs in my experience, are detected early and
-  collecting invalid data or missing additional data might be avoided.
+  Log::Log4perl and good test coverage. This way changes to the HTML
+  of scraped web pages, which often occurs in my experience, are
+  detected early and collecting invalid data or missing additional
+  data might be avoided.
 
 Parsing
 
 : Besides parsing HTML I’ve also experience with parsing XML, several
-  custom formats and domain-specific languages (DSLs).
+  custom formats, and domain-specific languages (DSLs).
 
 Data Munging
 
 : Another task that often is assigned to me is the conversion of data
   from one format to another; including data cleaning and
   verification. For example, modifying the text output of a legacy
-  application in such a way that it’s suitable to be printed on newly
-  designed labels. Often the input format has to be reverse
-  engineered, a challenge I like.
+  application in such a way that the new output is suitable to be
+  printed on redesigned labels. Often the input format has to be
+  reverse engineered and documented; a challenge I like.
 
 Testing
 
@@ -70,22 +72,22 @@ Testing
 
 ## Systems Administration
 
-My main development environment is currently Ubuntu 17.04 Zesty Zapus
-running in a virtual machine on OS X. My router runs OpenWrt, and I
-use a fanless computer to study FreeBSD. I also use two different VPS
-providers for hosting my websites. I do the administration of each of
-those systems, e.g. updates, firewall rules, and other security
-related tasks, installing and configuring software e.g. Apache HTTP
-server, Nginx, Postfix, Dovecot, OpenSSH, and MySQL.
+My main Perl development environment is currently Ubuntu 17.04 Zesty
+Zapus running in a virtual machine on OS X. My router runs OpenWrt,
+and I use a fanless computer to study FreeBSD. I also use two
+different VPS providers for hosting my websites. I do the
+administration of each of those systems, e.g. updates, firewall rules,
+and other security related tasks, installing and configuring software
+e.g. Apache HTTP server, Nginx, Postfix, Dovecot, OpenSSH, and MySQL.
 
 ## Documentation
 
 I like to write technical documentation. I prefer to use markup
-languages like Org Mode (Emacs), Markdown, LaTeX. The use of plain
-text formatting makes version control and searching from the command
-line easily. Plain text also makes it very easy to generate code from
-the documentation and vice versa. Where required, PDF versions can be
-generated using tools like Emacs, Pandoc, pdflatex.
+languages like Org Mode (Emacs), Markdown, and LaTeX. The use of plain
+text makes version control and searching from the command line
+easily. Plain text also makes it very easy to generate code from the
+documentation and vice versa. Where required, PDF versions can be
+generated using tools like Emacs, Pandoc, and pdflatex.
 
 ## Remote Work
 
@@ -117,33 +119,33 @@ Skills used:
 
 Role overview:
 
-:   - The development of a web crawler that downloads
-      XML data, verifies this data, gathers some statistics, and stores
-      desired data and statistics in a MySQL database. I am also
-      reponsible for writing all the technical documentation,
-      specifications, and example SQL queries. (current)
-
-    - Developing a program to import a "JSON per line" database dump
-	  into a MySQL database. Reverse engineering of the file format,
-	  design of the 70+ MySQL database tables, logic to avoid
+:   - Developed a program to import a "JSON per line" database dump
+	  into a MySQL database. I reverse engineered the file format,
+	  designed the 70+ MySQL database tables, and added logic to avoid
 	  duplicate code.
 
-    - Developing several tools for analyzing search engine result
-      pages (SERPs).
+    - Developed a web crawler that downloads XML data, verifies this
+      data, gathers some statistics, and stores desired data and
+      statistics in a MySQL database. I am also reponsible for writing
+      all the technical documentation, specifications, and example SQL
+      queries. (ongoing)
+
+    - Developed several tools for analyzing search engine result pages
+      (SERPs) (ongoing)
 
 Interesting challenges:
 
-:   Because the web crawler program downloads data from the Internet it
-    must be able to handle timeouts, partial downloads, etc. Moreover
-    the XML parser must be able to distinguish between errors that can
-    be safely ignored because they won’t affect the desired data much,
-    and fatal errors. As a single crawl can gather a lot of data the
-    MySQL database must be designed to deal with querying tens of
-    millions of rows of data in mind.
+:   Because the web crawler program downloads data from the Internet
+    it must be able to handle timeouts, partial downloads,
+    etc. Moreover the XML parser must be able to distinguish between
+    errors that can be safely ignored because they won’t affect the
+    desired data much, and fatal errors. As a single crawl can gather
+    a lot of data, hence the MySQL database must be designed to deal
+    with querying tens of millions of rows of data in mind.
 :   The database dump program required several refactoring steps to
     avoid code repetition. Great care had to be taken to verify the
     types of JSON data and to verify all IDs had the correct type and
-    were present in the dump.
+    were matching up in the original dump.
 
 ## RedSocks - Malicious Threat Detection
 
@@ -160,60 +162,62 @@ Skills used:
 
 Role overview:
 
-:   -   Developing several web crawling Perl programs for gathering
-        security related data, each crawler exporting downloaded data as
-        a CSV file.
+:   - Developed several web crawling Perl programs for gathering
+      security related data, each crawler exporting downloaded data as
+      a CSV file.
 
-    -   Developing a Perl program that downloads security related data
-        from several sources, verifies, cleans, and normalizes the data,
-        and export it as an XML file.
+    - Developed a Perl program that downloads security related data
+      from several sources, verifies, cleans, normalizes the data, and
+      export it as an XML file.
 
-    -   Developing a Perl program that post-processes the exported XML
-        data to remove duplicate entries and overlapping ranges using a
-        binary search algorithm.
+    - Developed a Perl program that post-processes the exported XML
+      data to remove duplicate entries and overlapping IP ranges using
+      a binary search algorithm.
 
-    -   Developing a Perl program that parses the log files (Log4Perl)
-        generated by aforementioned programs, generates reports, and
-        emails those reports.
+    - Developed a Perl program that parses log files (Log4Perl)
+      generated by aforementioned programs, creates reports, and
+      emails those reports.
 
-    -   Developing a Dancer2 web application to manually enter such data
-        and store it into a MySQL database.
+    - Developed a Dancer2 web application to manually enter IP ranges
+      and related security data and store this information into a
+      MySQL database.
 
-    -   Configuring and documenting virtual machines for each of the
-        Perl programs, including designing firewall rules, and allowing
-        access via rsync and HTTPs in a secure manner where required.
+    - Configured virtual machines for each of the Perl programs,
+      including designing firewall rules, and allowing access via
+      rsync and HTTPs in a secure manner where required. Documented
+      the entire process of configuration and installation in great detail.
 
-    -   Writing documentation on how to create certificates to allow
-        client side certificate authentication in nginx (HTTPS), and
-        configuring nginx accordingly.
+    - Wrote documentation on how to create certificates to allow
+      client side certificate authentication in nginx (HTTPS), and
+      configuring nginx accordingly.
 
-    -   Writing extensive tests for all developed custom Perl modules
-        and scripts.
+    - Wrote extensive tests for all developed custom Perl modules
+      and scripts.
 
-    -   Designing and documentating file format specifications (XML,
-        CSV) in Org Mode format (Emacs).
+    - Designed file formats (XML, CSV). Documented each format in Org
+      Mode format (Emacs).
 
-    -   Designing Relax NG schemata to validate XML files.
+    - Designed Relax NG schemata to validate XML files.
 	
-	-   Writing XSLT to transform XML output to older formats in order
-	    to support client programs that require an older format prior
-	    to being safely updated.
+	- Wrote XSLT to transform XML output to older formats in order to
+	  support client programs that require an older format prior to
+	  being safely updated.
 
-    -   Writing extensive technical documentation in Org Mode format
-        (Emacs).
+    - Wrote extensive technical documentation in Org Mode format
+      (Emacs).
 
 Interesting challenges:
 
 :   Because the generated XML file is used in security related
-    applications great care had to be taken to verify the downloaded
-    data and make sure that malformed data wouldn’t end up in the final
-    XML file. Because the generated data is used in programs written and
-    maintained by other programmers high quality specifications and
-    documentation was mandatory. In order to keep this documentation
-    under version control Emacs’ Org Mode was used to write in plain
-    text and convert it to, for example, PDF. Due to the asynchonous
-    nature of the various programs avoiding race conditions is
-    mandatory.
+    applications great care had to be taken to verify the integrity of
+    the downloaded data and make sure that malformed data wouldn’t end
+    up in the final XML file. Because the generated data is used in
+    programs written and maintained by other programmers, clear
+    specifications and well-written documentation was mandatory. In
+    order to keep this documentation under version control Emacs’ Org
+    Mode was used to write in plain text and convert it to, for
+    example, PDF. Due to the asynchonous nature of the various
+    programs care had to be taken to avoid race conditions.
 
 ## Eyeforyou
 
@@ -226,10 +230,10 @@ Skills used:
 
 Role overview:
 
-:   Maintenance of several legacy Perl CGI programs. Adding new
+:   Maintenance of several legacy Perl CGI programs. I created new
     functionality like scaling of photos and adding watermarks to
-    photos. MySQL database optimizations to improve search query time.
-    Adding new search options.
+    photos. I did various MySQL database optimizations which greatly
+    improved the search query time. I also added new search options.
 
 Interesting challenges:
 
