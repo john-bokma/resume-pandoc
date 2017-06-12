@@ -8,7 +8,7 @@ left-column:
   - 'Remote Only'
 right-column:
   - 'Email: [john@castleamber.com](mailto:john@castleamber.com)'
-  - 'Homepage: [http://castleamber.com/](http://castleamber.com/)
+  - 'Homepage: [http://castleamber.com/](http://castleamber.com/)'
   - 'Personal Site: [http://johnbokma.com/](http://johnbokma.com/)'
   - 'Last Updated: \today'
 name-color: DarkSlateGray
