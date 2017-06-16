@@ -18,8 +18,8 @@ section-color: Tomato
 # Summary
 
 I am a freelance Senior Perl Developer with over 20 years' experience,
-including exposure to Git, MySQL, Nginx, Apache HTTP Server, Python,
-XSLT, XML, RelaxNG, HTML, and CSS.
+including exposure to Machine Learning, Python, Git, MySQL, Nginx, Apache HTTP
+Server, XSLT, XML, RelaxNG, HTML, and CSS.
 
 I'm an active proponent of Modern Perl. I like writing technical
 documentation and unit tests; both have saved my customers and me a
