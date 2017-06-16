@@ -250,7 +250,8 @@ TH “Rijswijk”
 
 Utrecht University
 
-:   Design of Algorithms, MSc; 1994.
+:   Design of Algorithms, MSc; 1994. Thesis: "Constraint
+    Satisfaction with Learning Automata."
 
 # Courses
 
