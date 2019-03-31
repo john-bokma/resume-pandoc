@@ -5,7 +5,6 @@ keywords: perl, modern perl, cpan, cgi, nginx, apache, algorithms,
 	scraping, remote, parsing, plack, git, api, testing
 left-column:
   - 'Senior Perl Programmer'
-  - 'Remote Only'
 right-column:
   - 'Email: [john@castleamber.com](mailto:john@castleamber.com)'
   - 'Homepage: [http://castleamber.com/](http://castleamber.com/)'
@@ -99,7 +98,7 @@ my craft. I prefer to communicate using email. I have experience with
 encrypted email using GnuPG, SSH with public key encryption, Git,
 Subversion, and Github.
 
-## Other Skills
+## Other
 
 I would be happy to discuss my experience with and exposure to:
 Python, MySQL, XML, XSLT, XSL-FO, RelaxNG, Apache HTTP Server, Nginx,
@@ -132,6 +131,10 @@ Role overview:
 
     - Developed several tools for analyzing search engine result pages
       (SERPs) (ongoing)
+
+    - Porting Perl programs to the Go programming language. (ongoing)
+
+    - Developed modules for storing data in Amazon's S3.
 
 Interesting challenges:
 
@@ -184,7 +187,7 @@ Role overview:
 
     - Configured virtual machines for each of the Perl programs,
       including designing firewall rules, and allowing access via
-      rsync and HTTPs in a secure manner where required. Documented
+      rsync and HTTPS in a secure manner where required. Documented
       the entire process of configuration and installation in great detail.
 
     - Wrote documentation on how to create certificates to allow
@@ -216,12 +219,12 @@ Interesting challenges:
     specifications and well-written documentation was mandatory. In
     order to keep this documentation under version control Emacs’ Org
     Mode was used to write in plain text and convert it to, for
-    example, PDF. Due to the asynchonous nature of the various
+    example, PDF. Due to the asynchronous nature of the various
     programs care had to be taken to avoid race conditions.
 
 ## Eyeforyou
 
-Senior Perl Developer; November 2011 - Present; remote, part-time
+Senior Perl Developer; November 2011 - April 2016; remote, part-time
 
 Skills used:
 
