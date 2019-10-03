@@ -1,7 +1,7 @@
 ---
 name: John Bokma
 keywords: perl, modern perl, cpan, cgi, nginx, apache, algorithms,
-    freelance, msc, senior perl developer, xml, xslt, mysql, crawling, 
+    freelance, msc, senior perl developer, xml, xslt, mysql, crawling,
 	scraping, remote, parsing, plack, git, api, testing
 left-column:
   - 'Senior Perl Programmer'
@@ -16,19 +16,19 @@ section-color: Tomato
 
 # Summary
 
-I am a freelance Senior Perl Developer with over 20 years' experience,
-including exposure to Machine Learning, Python, Git, MySQL, Nginx, Apache HTTP
-Server, XSLT, XML, RelaxNG, HTML, and CSS.
+I am a freelance Senior Perl Developer with over 25 years' experience,
+including exposure to web scraping, data munging, Git, MySQL,
+Nginx, Apache HTTP Server, Python, XSLT, XML, RelaxNG, HTML, and CSS.
 
 I'm an active proponent of Modern Perl. I like writing technical
-documentation and unit tests; both have saved my customers and me a
+documentation and unit tests; both have saved my customers and I a
 lot of time over the years. I prefer to reuse tested code as much as
 possible, hence I often start a project with researching available
 solutions on CPAN.
 
 My personal development projects consist of several in-house tools,
 including a static website and blog generator using XML as input
-format.  Currently, I am working on a new version using Markdown for
+format. Currently, I am working on a new version using Markdown for
 input instead.
 
 # Skills
@@ -71,13 +71,12 @@ Testing
 
 ## Systems Administration
 
-My main Perl development environment is currently Ubuntu 17.04 Zesty
-Zapus running in a virtual machine on OS X. My router runs OpenWrt,
-and I use a fanless computer to study FreeBSD. I also use two
-different VPS providers for hosting my websites. I do the
-administration of each of those systems, e.g. updates, firewall rules,
-and other security related tasks, installing and configuring software
-e.g. Apache HTTP server, Nginx, Postfix, Dovecot, OpenSSH, and MySQL.
+My main Perl development environment is currently Ubuntu 19.04 Disco
+Dingo running in a virtual machine on MacOS. I also use two different
+VPS providers for hosting my websites. I do the administration of each
+of those systems, e.g. updates, firewall rules, and other security
+related tasks, installing and configuring software e.g. Apache HTTP
+server, Nginx, Postfix, Dovecot, OpenSSH, and MySQL.
 
 ## Documentation
 
@@ -105,6 +104,27 @@ Python, MySQL, XML, XSLT, XSL-FO, RelaxNG, Apache HTTP Server, Nginx,
 HTML, CSS, Search Engine Optimization (SEO).
 
 # Recent Projects
+
+## Peppels.net
+
+Senior Perl Developer; January 2019 - Present; remote, part-time
+
+Skills used:
+
+: Modern Perl, Template::Toolkit, JavaScript, jQuery, MySQL, HTML,
+  wkhtmltopdf, Sass, CSS3, git, make.
+
+Role overview:
+
+:   - Maintenance of exisiting code base.
+
+    - Adding new functionality and updating existing functionality.
+
+    - Turning designs into HTML and CSS3.
+
+    - Complete redesign of the existing login page.
+
+    - Adding additional PDF printing support.
 
 ## SF Metrics
 
@@ -201,7 +221,7 @@ Role overview:
       Mode format (Emacs).
 
     - Designed Relax NG schemata to validate XML files.
-	
+
 	- Wrote XSLT to transform XML output to older formats in order to
 	  support client programs that require an older format prior to
 	  being safely updated.
@@ -221,29 +241,6 @@ Interesting challenges:
     Mode was used to write in plain text and convert it to, for
     example, PDF. Due to the asynchronous nature of the various
     programs care had to be taken to avoid race conditions.
-
-## Eyeforyou
-
-Senior Perl Developer; November 2011 - April 2016; remote, part-time
-
-Skills used:
-
-:   Modern Perl, CGI, DBI, Image::Magic, Test::Most, Util::Image, Apache
-    HTTP server, HTML, CSS. MySQL, git, subversion.
-
-Role overview:
-
-:   Maintenance of several legacy Perl CGI programs. I created new
-    functionality like scaling of photos and adding watermarks to
-    photos. I did various MySQL database optimizations which greatly
-    improved the search query time. I also added new search options.
-
-Interesting challenges:
-
-:   The Perl CGI program is mostly legacy code which makes extending
-    and/or modifying it quite a challenge. Custom Perl modules are used
-    to group both new functionality and factored out code logically and
-    to support testing.
 
 # Education
 
@@ -280,6 +277,12 @@ Scalable Machine Learning
 
 # GitHub
 
+tumblelog
+
+ : A static HTML5 microblog generator written in Perl. A Python
+ version is also available in the same
+ repository: [tumblelog](https://github.com/john-bokma/tumblelog).
+
 resume-pandoc
 
  : LaTeX resume template for Pandoc based on a LaTeX resume by Jason
@@ -308,7 +311,7 @@ Modern Perl
   section. [Electronic versions](http://onyxneon.com/books/modern_perl/).
 
 A Retrospective Study of Polyallergy as A Marker of Non-Epileptic Seizures in the Epilepsy Monitoring Unit
-	  
+
 : I provided the Perl program used in this study; article in
   Psychosomatics 55(6); June 2014;
   [abstract](https://www.researchgate.net/publication/262923044_A_Retrospective_Study_of_Polyallergy_as_A_Marker_of_Non-Epileptic_Seizures_in_the_Epilepsy_Monitoring_Unit).
