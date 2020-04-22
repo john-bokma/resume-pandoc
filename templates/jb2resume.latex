@@ -39,6 +39,16 @@
   top=1.0in
 }
 
+# https://github.com/mpark/wg21/issues/54
+$if(csl-refs)$
+\newlength{\cslhangindent}
+\setlength{\cslhangindent}{1.5em}
+\newenvironment{cslreferences}%
+  {$if(csl-hanging-indent)$\setlength{\parindent}{0pt}%
+  \everypar{\setlength{\hangindent}{\cslhangindent}}\ignorespaces$endif$}%
+  {\par}
+$endif$
+
 % Fix  for "! Undefined control sequence. <recently read> \tightlist",
 % see: https://github.com/osener/markup.rocks/issues/4
 % I have this issue with Pandoc 1.17.2
