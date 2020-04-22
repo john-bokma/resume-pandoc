@@ -39,7 +39,7 @@
   top=1.0in
 }
 
-# https://github.com/mpark/wg21/issues/54
+% https://github.com/mpark/wg21/issues/54
 $if(csl-refs)$
 \newlength{\cslhangindent}
 \setlength{\cslhangindent}{1.5em}
