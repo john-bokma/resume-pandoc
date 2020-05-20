@@ -7,297 +7,90 @@ left-column:
   - 'NYC'
 right-column:
   - 'Email: [ntkjer@gmail.com](mailto:ntkjer@gmail.com)'
+  - 'GitHub: [ntkjer](https://www.github.com/ntkjer)'
   - 'Phone: 562-964-4426'
   - 'Last Updated: \today'
 name-color: DarkSlateGray
 section-color: Tomato
 ...
 
+
 # Summary
 
-Software engineer with over three years experience in various roles. Currently an SRE at J.Crew, I work on building monitoring solutions and internal tools for a high-traffic e-commerce platform. My key interests are in containers and orchestration, Linux systems, modern observability tools, and Golang.
+Currently an SRE at J.Crew, I work on building monitoring solutions and internal tools for observability and reliability initiatives. My key interests are in containers and orchestration, Linux, and Go. 
+
 
 # Experience
 
-## J. Crew
+## J. Crew  
+
+\vspace{-1truemm}
 
 Site Reliability Engineer; May 2019 - Present; NYC
 
-Skills used:
+\vspace{-1truemm}
 
-: AWS, Golang, Bash, Python, Grafana, Prometheus, Docker, Kubernetes, 
-    Terraform, GitHub, Markdown, Nginx, Jenkins, Ansible, Packer, vim, RHEL/Amazon Linux.
+Skills:
 
-Role overview:
+: AWS, Golang, Bash, Python, Jinja2, Grafana, Prometheus, Docker, Kubernetes, Thanos,
+    Terraform, GitHub, Markdown, Nginx, Jenkins, Ansible, RHEL/Amazon Linux, AppDynamics, InfluxDB.
 
-:   - Developed a program to import a "JSON per line" database dump
-	  into a MySQL database. I reverse engineered the file format,
-	  designed the 70+ MySQL database tables, and added logic to avoid
-	  duplicate code.
+\vspace{-1truemm}
 
-    - Developed a web crawler that downloads XML data, verifies this
-      data, gathers some statistics, and stores desired data and
-      statistics in a MySQL database. I am also reponsible for writing
-      all the technical documentation, specifications, and example SQL
-      queries. (ongoing)
+Overview:
 
-    - Developed several tools for analyzing search engine result pages
-      (SERPs) (ongoing)
+:   - Designed, developed, and managed the alerting and monitoring infrastructure for J.Crew. 
+    - Programmatically template metrics and KPIs for production and lower environments using Grafana.
+    - Implemented custom Prometheus exporters using Golang. 
+    - Created probes and alerts using Alertmanager, Grafana, SensuGo, and custom metrics. 
+    - Wrote Golang, Python, and bash code for internal tooling.
+    - Migrated from ECS to EKS.
+    - Wrote and maintained Dockerfiles, Kubernetes yamls, Nginx configs, and Terraform codebase.
+    - Wrote architecture documents for our EKS migration and Thanos implementation.
+    - Participated in an on-call rotation for production environment.
 
-Interesting challenges:
+## IBM - CISO
 
-:   Because the web crawler program downloads data from the Internet
-    it must be able to handle timeouts, partial downloads,
-    etc. Moreover the XML parser must be able to distinguish between
-    errors that can be safely ignored because they won’t affect the
-    desired data much, and fatal errors. As a single crawl can gather
-    a lot of data, hence the MySQL database must be designed to deal
-    with querying tens of millions of rows of data in mind.
-:   The database dump program required several refactoring steps to
-    avoid code repetition. Great care had to be taken to verify the
-    types of JSON data and to verify all IDs had the correct type and
-    were matching up in the original dump.
+\vspace{-1truemm}
 
-## RedSocks - Malicious Threat Detection
+Software Engineer: Monitoring and Tooling; July 2017 - July 2018; Austin, Texas
 
-Senior Perl Developer; February 2013 - December 2015; remote, part-time
+\vspace{-1truemm}
 
-Skills used:
+Skills:
 
-: Modern Perl, LWP::UserAgent, Log::Log4perl, HTML::TreeBuilder,
-    Test::Most, Test::More, Test::Output, JSON::XS, DBI, Try::Tiny,
-    XML::Parser, XML::Writer, Email::Sender, Text::CSV_XS,
-    MaxMind::DB::Reader, Dancer2, MySQL, RelaxNG, XSLT, Apache Ant,
-    git, VirtualBox, nginx, cron, Emacs Org Mode, OpenSSL, iptables,
-    HTML, CSS, GNU Privacy Guard (GPG).
+: Python, Flask, Angular, SQLite, Jinja2, Bash, Ansible, Jenkins, Kafka, ELK, git, RHEL/CentOS, Nginx, Kubernetes, Docker, Apache NiFi.
 
-Role overview:
+\vspace{-1truemm}
 
-:   - Developed several web crawling Perl programs for gathering
-      security related data, each crawler exporting downloaded data as
-      a CSV file.
+Overview:
 
-    - Developed a Perl program that downloads security related data
-      from several sources, verifies, cleans, normalizes the data, and
-      export it as an XML file.
+:   - Developed and maintained internal tools and microservices for internal CISO.
+    - Maintained and supported internal ELK-based SIEM platform.
 
-    - Developed a Perl program that post-processes the exported XML
-      data to remove duplicate entries and overlapping IP ranges using
-      a binary search algorithm.
+## Victorise
 
-    - Developed a Perl program that parses log files (Log4Perl)
-      generated by aforementioned programs, creates reports, and
-      emails those reports.
+\vspace{-1truemm}
 
-    - Developed a Dancer2 web application to manually enter IP ranges
-      and related security data and store this information into a
-      MySQL database.
+Software Engineering Intern; November 2016 - Feb 2017; remote, part-time
 
-    - Configured virtual machines for each of the Perl programs,
-      including designing firewall rules, and allowing access via
-      rsync and HTTPs in a secure manner where required. Documented
-      the entire process of configuration and installation in great detail.
+\vspace{-1truemm}
 
-    - Wrote documentation on how to create certificates to allow
-      client side certificate authentication in nginx (HTTPS), and
-      configuring nginx accordingly.
+Skills:
 
-    - Wrote extensive tests for all developed custom Perl modules
-      and scripts.
+:   AWS, Three.js, WebGL, Javascript, git, Node, Express.
 
-    - Designed file formats (XML, CSV). Documented each format in Org
-      Mode format (Emacs).
+\vspace{-1truemm}
 
-    - Designed Relax NG schemata to validate XML files.
-	
-	- Wrote XSLT to transform XML output to older formats in order to
-	  support client programs that require an older format prior to
-	  being safely updated.
+Overview:
 
-    - Wrote extensive technical documentation in Org Mode format
-      (Emacs).
+:   - Developed features for internal three.js library.
+    - Created three.js polygons and scenes for AR product.
 
-Interesting challenges:
-
-:   Because the generated XML file is used in security related
-    applications great care had to be taken to verify the integrity of
-    the downloaded data and make sure that malformed data wouldn’t end
-    up in the final XML file. Because the generated data is used in
-    programs written and maintained by other programmers, clear
-    specifications and well-written documentation was mandatory. In
-    order to keep this documentation under version control Emacs’ Org
-    Mode was used to write in plain text and convert it to, for
-    example, PDF. Due to the asynchonous nature of the various
-    programs care had to be taken to avoid race conditions.
-
-## Eyeforyou
-
-Senior Perl Developer; November 2011 - Present; remote, part-time
-
-Skills used:
-
-:   Modern Perl, CGI, DBI, Image::Magic, Test::Most, Util::Image, Apache
-    HTTP server, HTML, CSS. MySQL, git, subversion.
-
-Role overview:
-
-:   Maintenance of several legacy Perl CGI programs. I created new
-    functionality like scaling of photos and adding watermarks to
-    photos. I did various MySQL database optimizations which greatly
-    improved the search query time. I also added new search options.
-
-Interesting challenges:
-
-:   The Perl CGI program is mostly legacy code which makes extending
-    and/or modifying it quite a challenge. Custom Perl modules are used
-    to group both new functionality and factored out code logically and
-    to support testing.
+\vspace{-1truemm}
 
 # Education
 
 Sarah Lawrence College
 
-:   Computer Science, BA; 2017.
-
-# Skills
-
-## Perl
-
-Web Scraping
-
-: Over the years many projects I've been working on involved crawling,
-  caching, parsing, and storing the desired result in a database.  I
-  like the challenges such projects offer, like making the web
-  crawlers robust and be able to deal with the intricacies of the
-  Internet and its data. Regarding the latter, this is why I prefer
-  strict parsing of data, with many checks and extensive logging using
-  Log::Log4perl and good test coverage. This way changes to the HTML
-  of scraped web pages, which often occurs in my experience, are
-  detected early and collecting invalid data or missing additional
-  data might be avoided.
-
-Parsing
-
-: Besides parsing HTML I’ve also experience with parsing XML, several
-  custom formats, and domain-specific languages (DSLs).
-
-Data Munging
-
-: Another task that often is assigned to me is the conversion of data
-  from one format to another; including data cleaning and
-  verification. For example, modifying the text output of a legacy
-  application in such a way that the new output is suitable to be
-  printed on redesigned labels. Often the input format has to be
-  reverse engineered and documented; a challenge I like.
-
-Testing
-
-: I prefer to use extensive testing of the custom modules and scripts
-  I write. My favorite module is Test::Most because the module
-  provides the most commonly used testing functions with a single
-  line, avoiding a lot of boilerplate.
-
-## Systems Administration
-
-My main Perl development environment is currently Ubuntu 17.04 Zesty
-Zapus running in a virtual machine on OS X. My router runs OpenWrt,
-and I use a fanless computer to study FreeBSD. I also use two
-different VPS providers for hosting my websites. I do the
-administration of each of those systems, e.g. updates, firewall rules,
-and other security related tasks, installing and configuring software
-e.g. Apache HTTP server, Nginx, Postfix, Dovecot, OpenSSH, and MySQL.
-
-## Documentation
-
-I like to write technical documentation. I prefer to use markup
-languages like Org Mode (Emacs), Markdown, and LaTeX. The use of plain
-text makes version control and searching from the command line
-easily. Plain text also makes it very easy to generate code from the
-documentation and vice versa. Where required, PDF versions can be
-generated using tools like Emacs, Pandoc, and pdflatex.
-
-## Remote Work
-
-I exclusively work remotely. Over the past years, I have worked with
-customers in Japan, USA, The Netherlands, and Canada. Working from
-home provides me with a productive environment with a minimal number
-of interruptions. I use the Internet to stay in touch with peers and
-my craft. I prefer to communicate using email. I have experience with
-encrypted email using GnuPG, SSH with public key encryption, Git,
-Subversion, and Github.
-
-## Other Skills
-
-I would be happy to discuss my experience with and exposure to:
-Python, MySQL, XML, XSLT, XSL-FO, RelaxNG, Apache HTTP Server, Nginx,
-HTML, CSS, Search Engine Optimization (SEO).
-
-   Satisfaction with Learning Automata."
-
-# Courses
-
-DelftX: FP101x Introduction to Functional Programming
-
-: Haskell, Monads; final grade: 98%; December 2014;
-  [course info](https://courses.edx.org/courses/DelftX/FP101x/3T2014/info);
-  [verified certificate (PDF)](https://s3.amazonaws.com/verify.edx.org/downloads/6d4d4270a06545ecbdc12f4a9c5cafa4/Certificate.pdf).
-
-Introduction to Big Data with Apache Spark
-
-: Apache Spark, Python, Vagrant; final grade: 100%; July 2015;
-  [course info](https://courses.edx.org/courses/BerkeleyX/CS100.1x/1T2015/info)
-  ;
-  [verified certificate (PDF)](https://s3.amazonaws.com/verify.edx.org/downloads/f94790bd236c48ca9e943fa50c5d8c48/Certificate.pdf).
-
-Scalable Machine Learning
-
-: Apache Spark, Python, Vagrant; final grade: 100%; August 2015;
-  [course info](https://courses.edx.org/courses/BerkeleyX/CS190.1x/1T2015/info)
-  ;
-  [verified certificate (PDF)](https://s3.amazonaws.com/verify.edx.org/downloads/90d3c61ff8bb49d080c914dbfa1aa1e7/Certificate.pdf).
-
-# GitHub
-
-resume-pandoc
-
- : LaTeX resume template for Pandoc based on a LaTeX resume by Jason
-R. Blevins. The template can be used to create either a LaTeX or PDF
-file given a Markdown file as input. The template was used to create
-this resume. Repository:
-[resume-pandoc](https://github.com/john-bokma/resume-pandoc).
-
-amazon-list
-
- : This repository currently contains a Perl module, Amazon::List, and
-a small Perl program which uses this module to obtain information from
-items on an Amazon list and print those formatted to
-`stdout`. Repository:
-[amazon-list](https://github.com/john-bokma/amazon-list)
-
-# Miscellaneous
-
-Developing Web Applications with Apache, MySQL, memcached, and Perl
-
-: Technical Editor; ISBN-13: 978-0470414644; 2009.
-
-Modern Perl
-
-: I did some voluntarily reviewing, and am listed in the Credits
-  section. [Electronic versions](http://onyxneon.com/books/modern_perl/).
-
-A Retrospective Study of Polyallergy as A Marker of Non-Epileptic Seizures in the Epilepsy Monitoring Unit
-	  
-: I provided the Perl program used in this study; article in
-  Psychosomatics 55(6); June 2014;
-  [abstract](https://www.researchgate.net/publication/262923044_A_Retrospective_Study_of_Polyallergy_as_A_Marker_of_Non-Epileptic_Seizures_in_the_Epilepsy_Monitoring_Unit).
-
-Optimization of molecular methods and statistical procedures for forensic fingerprinting of microbial soil communities
-
-: I assisted with Perl programming; article in International Research
-  Journal of Microbiology (IRJM); ISSN: 2141-5463; Vol. 3(11) pp.
-  363-372; November 2012;
-  [full length research paper (PDF)](http://www.interesjournals.org/full-articles/optimization-of-molecular-methods-and-statistical-procedures-for-forensic-fingerprinting-of-microbial-soil-communities.pdf?view=inline)
-
-Languages
-
-: Dutch (native), English (fluent).
+:   Computer Science and Math, BA; 2013-2017.
