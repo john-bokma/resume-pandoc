@@ -7,25 +7,14 @@ I've included my own resume in markdown format as an example.
 To create the LaTeX version, use:
 
 ~~~
-pandoc perl-programmer-john-bokma-resume.md -f markdown+yaml_metadata_block \
-  --template templates/jb2resume.latex \
-  -o perl-programmer-john-bokma-resume.tex
+make build
 ~~~
 
 And to create the PDF version, use:
 
 ~~~
-pandoc perl-programmer-john-bokma-resume.md -f markdown+yaml_metadata_block \
-  --template templates/jb2resume.latex \
-  -o perl-programmer-john-bokma-resume.pdf
+make pdf
 ~~~
-
-## Getting Started on Ubuntu 17.04
-
-Please read my blog
-entry
-[Installing the latest version of Pandoc on Ubuntu 17.04](http://johnbokma.com/blog/2017/05/17/installing-latest-pandoc-on-ubuntu.html) which
-provides an easy walk-through.
 
 ## YAML Meta Block
 
