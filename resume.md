@@ -8,6 +8,7 @@ left-column:
 right-column:
   - 'Email: [ntkjer@gmail.com](mailto:ntkjer@gmail.com)'
   - 'GitHub: [ntkjer](https://www.github.com/ntkjer)'
+  - 'LinkedIn: [nielskjer](https://www.linkedin.com/in/nielskjer)'
   - 'Phone: 562-964-4426'
   - 'Last Updated: \today'
 name-color: DarkSlateGray
@@ -32,7 +33,7 @@ Site Reliability Engineer; May 2019 - Present; NYC
 
 Skills:
 
-: AWS, Golang, Bash, Python, Jinja2, Grafana, Prometheus, Docker, Kubernetes, Thanos,
+: AWS, Golang, Bash, Python, Grafana, Prometheus, Docker, Kubernetes, Thanos,
     Terraform, GitHub, Markdown, Nginx, Jenkins, Ansible, RHEL/Amazon Linux, AppDynamics, InfluxDB.
 
 \vspace{-1truemm}
@@ -84,8 +85,7 @@ Skills:
 
 Overview:
 
-:   - Developed features for internal three.js library.
-    - Created three.js polygons and scenes for AR product.
+:   - Created three.js polygons and scenes for AR product.
 
 \vspace{-1truemm}
 
