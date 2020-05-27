@@ -69,25 +69,31 @@ Overview:
 :   - Developed and maintained internal tools and microservices for internal CISO.
     - Maintained and supported internal ELK-based SIEM platform.
 
-## Victorise
+## Internships
 
 \vspace{-1truemm}
 
-Software Engineering Intern; November 2016 - Feb 2017; remote, part-time
+Victorise:
 
-\vspace{-1truemm}
+:   Software Engineering Intern; November 2016 - Feb 2017; remote, part-time
+
+\vspace{-2truemm}
 
 Skills:
 
 :   AWS, Three.js, WebGL, Javascript, git, Node, Express.
 
-\vspace{-1truemm}
 
-Overview:
+Stacklist:
 
-:   - Created three.js polygons and scenes for AR product.
+:   Data Science Intern; Mar 2016 - Aug 2016; NYC, full-time
 
-\vspace{-1truemm}
+\vspace{-2truemm}
+
+Skills:
+
+:   Python, Java, SQLite, MongoDB 
+
 
 # Education
 
