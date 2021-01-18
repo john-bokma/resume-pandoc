@@ -18,50 +18,50 @@ section-color: Tomato
 
 # Experience
 
-## J. Crew (Techolution)
+## J. Crew (v. Techolution)
 
 \vspace{-1truemm}
 
-Site Reliability Engineer; May 2019 - Present; NYC
+Site Reliability Engineer
+: \hfill May 2019 - Present
 
+\vspace{-1truemm}
+New York, NY
 \vspace{-1truemm}
 
 Skills:
 
 : AWS, Golang, Bash, Python, Grafana, Prometheus, Docker, Kubernetes, Thanos,
-    Terraform, GitHub, Markdown, Nginx, Jenkins, Ansible, RHEL/Amazon Linux, AppDynamics, InfluxDB.
-
-\vspace{-1truemm}
+    Terraform, git, RHEL/Amazon Linux, Nginx, Jenkins, Ansible, AppDynamics, InfluxDB.
 
 Overview:
-
-:   - Developed custom metric exporter services using the Prometheus client library in Python for CDN metrics and chat services. 
+:   - Developed custom metric exporter services using the Prometheus client library.
     - Designed, developed, and managed the alerting and monitoring infrastructure for J.Crew production and lower environments using Prometheus and Grafana.
-    - Wrote Golang, Python, and bash code for internal tooling and APIs.
-    - Migrated services from AWS ECS to Kuberentes on EKS.
+    - Wrote Go, Python, and bash code for internal tooling and APIs.
     - Wrote and maintained infrastructure related assets such as Dockerfiles, Kubernetes yamls, Nginx configs, Helm charts, and Terraform codebase.
     - Wrote technical documentation for architecture and code reviews.
     - Participated in an on-call rotation for production troubleshooting.
 
-## IBM (Kforce)
+## IBM (v. Kforce)
 
 \vspace{-1truemm}
 
-Software Development Engineer; July 2017 - July 2018; Austin, Texas
+Software Development Engineer  
+: \hfill July 2017 - July 2018
+
+\vspace{-1truemm}
+Austin, Texas
 
 \vspace{-1truemm}
 
 Skills:
 
-: Python, Flask, Angular, SQLite, Jinja2, Bash, Ansible, Jenkins, Kafka, ELK, git, RHEL/CentOS, Nginx, Kubernetes, Docker.
-
-\vspace{-1truemm}
+: Python, Flask, Angular, SQLite, Jinja2, Bash, Ansible, Jenkins, Kafka, Elasticsearch, Logstash, git, RHEL/CentOS, Nginx, Kubernetes, Docker.
 
 Overview:
-
 :   - Implemented data-reliability API using Python for tracking event pipeline of internal SIEM platform.
     - Wrote internal architecture and design documentation.
-    - Maintained codebase and developed features for internal honeypot service built using Flask, SQLite, and Angular. 
+    - Maintained code and developed features for internal honeypot service built using Flask, SQLite, and Angular.
     - Participated in an on-call rotation for threat detection platform and search infrastructure.
 
 ## Internships
@@ -70,9 +70,9 @@ Overview:
 
 Victorise:
 
-:   Software Engineering Intern; November 2016 - Feb 2017; remote, part-time
+:   Software Development Engineer Intern \hfill November 2016 - Feb 2017
 
-\vspace{-2truemm}
+\vspace{-1truemm}
 
 Skills:
 
@@ -81,16 +81,16 @@ Skills:
 
 Stacklist:
 
-:   Data Science Intern; Mar 2016 - Aug 2016; NYC, full-time
+:   Data Science Intern; \hfill Mar 2016 - Aug 2016
 
-\vspace{-2truemm}
+\vspace{-1truemm}
 
 Skills:
 
-:   Python, Java, SQLite, MongoDB 
+:   Python, Java, MongoDB 
 
 
-# Education
+## Education
 
 Sarah Lawrence College
 
