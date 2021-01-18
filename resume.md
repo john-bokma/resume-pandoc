@@ -16,14 +16,9 @@ section-color: Tomato
 ...
 
 
-# Summary
-
-Currently an SRE at J.Crew, I work on building monitoring solutions and internal tools for observability and reliability initiatives. My key interests are in containers and orchestration, Linux, and Go. 
-
-
 # Experience
 
-## J. Crew  
+## J. Crew (Techolution)
 
 \vspace{-1truemm}
 
@@ -40,34 +35,34 @@ Skills:
 
 Overview:
 
-:   - Designed, developed, and managed the alerting and monitoring infrastructure for J.Crew. 
-    - Programmatically template metrics and KPIs for production and lower environments using Grafana.
-    - Implemented custom Prometheus exporters using Golang. 
-    - Created probes and alerts using Alertmanager, Grafana, SensuGo, and custom metrics. 
-    - Wrote Golang, Python, and bash code for internal tooling.
-    - Migrated from ECS to EKS.
-    - Wrote and maintained Dockerfiles, Kubernetes yamls, Nginx configs, and Terraform codebase.
-    - Wrote architecture documents for our EKS migration and Thanos implementation.
-    - Participated in an on-call rotation for production environment.
+:   - Developed custom metric exporter services using the Prometheus client library in Python for CDN metrics and chat services. 
+    - Designed, developed, and managed the alerting and monitoring infrastructure for J.Crew production and lower environments using Prometheus and Grafana.
+    - Wrote Golang, Python, and bash code for internal tooling and APIs.
+    - Migrated services from AWS ECS to Kuberentes on EKS.
+    - Wrote and maintained infrastructure related assets such as Dockerfiles, Kubernetes yamls, Nginx configs, Helm charts, and Terraform codebase.
+    - Wrote technical documentation for architecture and code reviews.
+    - Participated in an on-call rotation for production troubleshooting.
 
-## IBM - CISO
+## IBM (Kforce)
 
 \vspace{-1truemm}
 
-Software Engineer: Monitoring and Tooling; July 2017 - July 2018; Austin, Texas
+Software Development Engineer; July 2017 - July 2018; Austin, Texas
 
 \vspace{-1truemm}
 
 Skills:
 
-: Python, Flask, Angular, SQLite, Jinja2, Bash, Ansible, Jenkins, Kafka, ELK, git, RHEL/CentOS, Nginx, Kubernetes, Docker, Apache NiFi.
+: Python, Flask, Angular, SQLite, Jinja2, Bash, Ansible, Jenkins, Kafka, ELK, git, RHEL/CentOS, Nginx, Kubernetes, Docker.
 
 \vspace{-1truemm}
 
 Overview:
 
-:   - Developed and maintained internal tools and microservices for internal CISO.
-    - Maintained and supported internal ELK-based SIEM platform.
+:   - Implemented data-reliability API using Python for tracking event pipeline of internal SIEM platform.
+    - Wrote internal architecture and design documentation.
+    - Maintained codebase and developed features for internal honeypot service built using Flask, SQLite, and Angular. 
+    - Participated in an on-call rotation for threat detection platform and search infrastructure.
 
 ## Internships
 
@@ -81,7 +76,7 @@ Victorise:
 
 Skills:
 
-:   AWS, Three.js, WebGL, Javascript, git, Node, Express.
+:   AWS, Three.js, WebGL, Javascript, git, Express.
 
 
 Stacklist:
@@ -99,4 +94,4 @@ Skills:
 
 Sarah Lawrence College
 
-:   Computer Science and Math, BA; 2013-2017.
+:  B.A Liberal Arts, concentration in Computer Science and Math; 2013-2017.
