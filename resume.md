@@ -18,7 +18,7 @@ section-color: Tomato
 
 # Experience
 
-## J. Crew (v. Techolution)
+## J. Crew 
 
 \vspace{-1truemm}
 
@@ -38,11 +38,11 @@ Overview:
 :   - Developed custom metric exporter services using the Prometheus client library.
     - Designed, developed, and managed the alerting and monitoring infrastructure for J.Crew production and lower environments using Prometheus and Grafana.
     - Wrote Go, Python, and bash code for internal tooling and APIs.
-    - Wrote and maintained infrastructure related assets such as Dockerfiles, Kubernetes yamls, Nginx configs, Helm charts, and Terraform codebase.
+    - Wrote and maintained infrastructure related assets such as Dockerfiles, Kubernetes yamls, Nginx configs, and Terraform codebase.
     - Wrote technical documentation for architecture and code reviews.
     - Participated in an on-call rotation for production troubleshooting.
 
-## IBM (v. Kforce)
+## IBM
 
 \vspace{-1truemm}
 
@@ -59,9 +59,9 @@ Skills:
 : Python, Flask, Angular, SQLite, Jinja2, Bash, Ansible, Jenkins, Kafka, Elasticsearch, Logstash, git, RHEL/CentOS, Nginx, Kubernetes, Docker.
 
 Overview:
-:   - Implemented data-reliability API using Python for tracking event pipeline of internal SIEM platform.
-    - Wrote internal architecture and design documentation.
+:   - Implemented data-reliability API using Python for tracking reliability of internal SIEM data.
     - Maintained code and developed features for internal honeypot service built using Flask, SQLite, and Angular.
+    - Wrote internal architecture and design documentation.
     - Participated in an on-call rotation for threat detection platform and search infrastructure.
 
 ## Internships
@@ -70,18 +70,18 @@ Overview:
 
 Victorise:
 
-:   Software Development Engineer Intern \hfill November 2016 - Feb 2017
+:   Software Development Engineer Intern \hfill March 2017 - May 2017 
 
 \vspace{-1truemm}
 
 Skills:
 
-:   AWS, Three.js, WebGL, Javascript, git, Express.
+:   AWS, Three.js, Javascript, git, Express.
 
 
 Stacklist:
 
-:   Data Science Intern; \hfill Mar 2016 - Aug 2016
+:   Data Science Intern \hfill Mar 2016 - Aug 2016
 
 \vspace{-1truemm}
 
@@ -94,4 +94,4 @@ Skills:
 
 Sarah Lawrence College
 
-:  B.A Liberal Arts, concentration in Computer Science and Math; 2013-2017.
+:  B.A Liberal Arts: concentration in Computer Science and Math \hfill 2013 - 2017
