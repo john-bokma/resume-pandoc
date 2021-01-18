@@ -9,7 +9,7 @@ right-column:
   - 'Email: [ntkjer@gmail.com](mailto:ntkjer@gmail.com)'
   - 'GitHub: [ntkjer](https://www.github.com/ntkjer)'
   - 'LinkedIn: [nielskjer](https://www.linkedin.com/in/nielskjer)'
-  - 'Phone: 562-964-4426'
+  - 'Phone: (562) 964-4426'
   - 'Last Updated: \today'
 name-color: DarkSlateGray
 section-color: Tomato
