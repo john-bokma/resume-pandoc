@@ -31,14 +31,14 @@ New York, NY
 
 Skills:
 
-: AWS, Golang, Bash, Python, Grafana, Prometheus, Docker, Kubernetes, Thanos,
+: AWS, Golang, Bash, Python, Grafana, Prometheus, Docker, Kubernetes, Helm,
     Terraform, git, RHEL/Amazon Linux, Nginx, Jenkins, Ansible, AppDynamics, InfluxDB.
 
 Overview:
 :   - Developed custom metric exporter services using the Prometheus client library.
     - Designed, developed, and managed the alerting and monitoring infrastructure for J.Crew production and lower environments using Prometheus and Grafana.
     - Wrote Go, Python, and bash code for internal tooling and APIs.
-    - Wrote and maintained infrastructure related assets such as Dockerfiles, Kubernetes yamls, Nginx configs, and Terraform codebase.
+    - Wrote and maintained infrastructure related assets such as Dockerfiles, Kubernetes, Nginx configs, and Terraform codebase.
     - Wrote technical documentation for architecture and code reviews.
     - Participated in an on-call rotation for production troubleshooting.
 
@@ -74,10 +74,6 @@ Victorise:
 
 \vspace{-1truemm}
 
-Skills:
-
-:   AWS, Three.js, Javascript, git, Express.
-
 
 Stacklist:
 
@@ -85,13 +81,9 @@ Stacklist:
 
 \vspace{-1truemm}
 
-Skills:
 
-:   Python, Java, MongoDB 
-
-
-## Education
+# Education
 
 Sarah Lawrence College
 
-:  B.A Liberal Arts: concentration in Computer Science and Math \hfill 2013 - 2017
+:  B.A Liberal Arts: Computer Science and Math \hfill 2013 - 2017
