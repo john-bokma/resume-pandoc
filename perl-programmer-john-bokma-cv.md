@@ -4,21 +4,21 @@ keywords: perl, modern perl, cpan, cgi, nginx, apache, algorithms,
     freelance, msc, senior perl developer, xml, xslt, mysql, crawling,
 	scraping, remote, parsing, plack, git, api, testing
 left-column:
-  - 'Senior Perl Programmer'
-right-column:
+  - 'Senior Perl Developer located in the Netherlands'
   - 'Email: [john@castleamber.com](mailto:john@castleamber.com)'
+  - 'Skype: john-bokma'
+right-column:
+  - 'GitHub: [https://github.com/john-bokma/](https://github.com/john-bokma/)'
   - 'Homepage: [http://castleamber.com/](http://castleamber.com/)'
   - 'Personal Site: [http://johnbokma.com/](http://johnbokma.com/)'
   - 'Last Updated: \today'
-name-color: DarkSlateGray
-section-color: Tomato
 ...
 
 # Summary
 
-I am a freelance Senior Perl Developer with over 25 years' experience,
-including exposure to web scraping, data munging, Git, MySQL,
-Nginx, Apache HTTP Server, Python, XSLT, XML, RelaxNG, HTML, and CSS.
+I am a freelance Senior Perl Developer with over 26 years' experience,
+including exposure to web scraping, data wrangling, Git, MySQL,
+NGINX, Apache HTTP Server, Python, XSLT, XML, RelaxNG, HTML, and CSS.
 
 I'm an active proponent of Modern Perl. I like writing technical
 documentation and unit tests; both have saved my customers and I a
@@ -29,7 +29,8 @@ solutions on CPAN.
 My personal development projects consist of several in-house tools,
 including a static website and blog generator using XML as input
 format. Currently, I am working on a new version using Markdown for
-input instead.
+input instead. I also wrote a small static microblog generator, which
+is available on GitHub in both a Perl and a Python version.
 
 # Skills
 
@@ -53,7 +54,7 @@ Parsing
 : Besides parsing HTML I’ve also experience with parsing XML, several
   custom formats, and domain-specific languages (DSLs).
 
-Data Munging
+Data Wrangling
 
 : Another task that often is assigned to me is the conversion of data
   from one format to another; including data cleaning and
@@ -76,7 +77,7 @@ Dingo running in a virtual machine on MacOS. I also use two different
 VPS providers for hosting my websites. I do the administration of each
 of those systems, e.g. updates, firewall rules, and other security
 related tasks, installing and configuring software e.g. Apache HTTP
-server, Nginx, Postfix, Dovecot, OpenSSH, and MySQL.
+server, NGINX, Postfix, Dovecot, OpenSSH, and MySQL.
 
 ## Documentation
 
@@ -100,14 +101,14 @@ Subversion, and Github.
 ## Other
 
 I would be happy to discuss my experience with and exposure to:
-Python, MySQL, XML, XSLT, XSL-FO, RelaxNG, Apache HTTP Server, Nginx,
+Python, MySQL, XML, XSLT, XSL-FO, RelaxNG, Apache HTTP Server, NGINX,
 HTML, CSS, Search Engine Optimization (SEO).
 
-# Recent Projects
+# Experience as Senior Perl Developer
 
 ## Peppels.net
 
-Senior Perl Developer; January 2019 - Present; remote, part-time
+**January 2019 - present**; remote, part-time
 
 Skills used:
 
@@ -116,25 +117,27 @@ Skills used:
 
 Role overview:
 
-:   - Maintenance of exisiting code base.
+:   - Maintenance of existing code base.
 
-    - Adding new functionality and updating existing functionality.
+    - Turning graphic designs into responsive HTML and CSS3.
 
-    - Turning designs into HTML and CSS3.
-
-    - Complete redesign of the existing login page.
+    - Complete redesign of the existing login page for both mobile and desktop.
 
     - Adding additional PDF printing support.
 
+    - Adding support for portfolio pages for both mobile and desktop.
+
+    - Testing and adjusting mobile design.
+
 ## SF Metrics
 
-Senior Perl Developer; August 2015 - Present; remote, part-time
+**August 2015 - present**; remote, part-time
 
 Skills used:
 
 : Modern Perl, LWP::UserAgent, Log::Log4perl, Test::Most, Text::Diff,
     XML::Parser, DBI, Config::Tiny, Try::Tiny, Path::Tiny, Plack, JSON,
-    git, MySQL, GitHub, Emacs Org Mode, Markdown, Nginx, SEO.
+    git, MySQL, GitHub, Emacs Org Mode, Markdown, NGINX, SEO.
 
 Role overview:
 
@@ -172,7 +175,7 @@ Interesting challenges:
 
 ## RedSocks - Malicious Threat Detection
 
-Senior Perl Developer; February 2013 - December 2015; remote, part-time
+**February 2013 - December 2015**; remote, part-time
 
 Skills used:
 
@@ -180,7 +183,7 @@ Skills used:
     Test::Most, Test::More, Test::Output, JSON::XS, DBI, Try::Tiny,
     XML::Parser, XML::Writer, Email::Sender, Text::CSV_XS,
     MaxMind::DB::Reader, Dancer2, MySQL, RelaxNG, XSLT, Apache Ant,
-    git, VirtualBox, nginx, cron, Emacs Org Mode, OpenSSL, iptables,
+    git, VirtualBox, NGINX, cron, Emacs Org Mode, OpenSSL, iptables,
     HTML, CSS, GNU Privacy Guard (GPG).
 
 Role overview:
@@ -207,12 +210,12 @@ Role overview:
 
     - Configured virtual machines for each of the Perl programs,
       including designing firewall rules, and allowing access via
-      rsync and HTTPS in a secure manner where required. Documented
+      `rsync` and HTTPS in a secure manner where required. Documented
       the entire process of configuration and installation in great detail.
 
     - Wrote documentation on how to create certificates to allow
-      client side certificate authentication in nginx (HTTPS), and
-      configuring nginx accordingly.
+      client side certificate authentication in NGINX (HTTPS), and
+      configuring NGINX accordingly.
 
     - Wrote extensive tests for all developed custom Perl modules
       and scripts.
@@ -244,11 +247,11 @@ Interesting challenges:
 
 # Education
 
-TH “Rijswijk”
+TH “Rijswijk”, Rijswijk, The Netherlands
 
 :   Computer Science, BSc; 1991.
 
-Utrecht University
+Utrecht University, Utrecht, The Netherlands
 
 :   Design of Algorithms, MSc; 1994. Thesis: "Constraint
     Satisfaction with Learning Automata."
@@ -257,7 +260,7 @@ Utrecht University
 
 DelftX: FP101x Introduction to Functional Programming
 
-: Haskell, Monads; final grade: 98%; December 2014;
+: Functional Programming, Haskell, Monads; final grade: 98%; December 2014;
   [course info](https://courses.edx.org/courses/DelftX/FP101x/3T2014/info);
   [verified certificate (PDF)](https://s3.amazonaws.com/verify.edx.org/downloads/6d4d4270a06545ecbdc12f4a9c5cafa4/Certificate.pdf).
 
@@ -279,25 +282,18 @@ Scalable Machine Learning
 
 tumblelog
 
- : A static HTML5 microblog generator written in Perl. A Python
- version is also available in the same
- repository: [tumblelog](https://github.com/john-bokma/tumblelog).
+ : A static HTML5 microblog generator with support for RSS and JSON
+   feeds written in Perl. A Python version with identical
+   functionality is also available in the same repository:
+   [tumblelog](https://github.com/john-bokma/tumblelog).
 
 resume-pandoc
 
  : LaTeX resume template for Pandoc based on a LaTeX resume by Jason
-R. Blevins. The template can be used to create either a LaTeX or PDF
-file given a Markdown file as input. The template was used to create
-this resume. Repository:
-[resume-pandoc](https://github.com/john-bokma/resume-pandoc).
-
-amazon-list
-
- : This repository currently contains a Perl module, Amazon::List, and
-a small Perl program which uses this module to obtain information from
-items on an Amazon list and print those formatted to
-`stdout`. Repository:
-[amazon-list](https://github.com/john-bokma/amazon-list)
+   R. Blevins. The template can be used to create either a LaTeX or
+   PDF file given a Markdown file as input. The template was used to
+   create this resume. Repository:
+   [resume-pandoc](https://github.com/john-bokma/resume-pandoc).
 
 # Miscellaneous
 
@@ -326,3 +322,5 @@ Optimization of molecular methods and statistical procedures for forensic finger
 Languages
 
 : Dutch (native), English (fluent).
+
+My [resume](http://castleamber.com/documents/perl-programmer-john-bokma-resume.pdf) (PDF)

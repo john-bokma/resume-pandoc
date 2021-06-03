@@ -22,10 +22,16 @@ pandoc perl-programmer-john-bokma-resume.md -f markdown+yaml_metadata_block \
 
 ## Getting Started on Ubuntu 17.04
 
-Please read my blog
-entry
+Please read my blog entry
 [Installing the latest version of Pandoc on Ubuntu 17.04](http://johnbokma.com/blog/2017/05/17/installing-latest-pandoc-on-ubuntu.html), which
 provides an easy walk-through.
+
+## Using Docker
+
+Please read my blog entry
+[Giving Docker Desktop for macOS a Second
+Chance](http://johnbokma.com/blog/2021/06/02/giving-docker-desktop-for-macos-a-second-chance.html),
+which provides an easy walk-through.
 
 ## YAML Meta Block
 
@@ -42,7 +48,7 @@ left-column
 right-column
  : a list of lines you want in the right column, directly under the
    name on the first page.
-   
+
 fontsize
  : default `10pt`.
 
@@ -51,10 +57,10 @@ fontenc
 
 urlcolor
  : used in PDF, default `blue`.
- 
+
 linkcolor
  : used in PDF, default `magenta`.
- 
+
 numbersections
  : number sections, default off. Can also be controlled using the
  `pandoc` option `-N, --number-sections`.
