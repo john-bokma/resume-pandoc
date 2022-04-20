@@ -21,6 +21,17 @@
 
 \def\name{$name$}
 
+% CSL environment
+% see: https://github.com/jgm/pandoc/commit/0fe635d3ecdc362f11c380c2e0b9518aa03424e9
+$if(csl-refs)$
+\newlength{\cslhangindent}
+\setlength{\cslhangindent}{1.5em}
+\newenvironment{CSLReferences}%
+  {$if(csl-hanging-indent)$\setlength{\parindent}{0pt}%
+  \everypar{\setlength{\hangindent}{\cslhangindent}}\ignorespaces$endif$}%
+  {\par}
+$endif$
+
 % The following metadata will show up in the PDF properties
 \hypersetup{
   colorlinks = true,
