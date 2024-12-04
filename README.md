@@ -3,21 +3,12 @@
 LaTeX resume template for Pandoc based on Jason R. Blevins' template;
 http://jblevins.org/projects/cv-template/.
 
-I've included my own resume in markdown format as an example.
-To create the LaTeX version, use:
+To create the PDF version, use:
 
 ~~~
-pandoc perl-programmer-john-bokma-resume.md -f markdown+yaml_metadata_block \
+pandoc sebastian-di-luzio.md -f markdown+yaml_metadata_block \
   --template templates/jb2resume.latex \
-  -o perl-programmer-john-bokma-resume.tex
-~~~
-
-And to create the PDF version, use:
-
-~~~
-pandoc perl-programmer-john-bokma-resume.md -f markdown+yaml_metadata_block \
-  --template templates/jb2resume.latex \
-  -o perl-programmer-john-bokma-resume.pdf
+  -o sebastian-di-luzio.pdf
 ~~~
 
 ## Getting Started on Ubuntu 17.04
