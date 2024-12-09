@@ -44,7 +44,7 @@ Highlights:
     - Orchestration of 15+ microfrontends by 9+ teams
     - Stewardship of a shared component library
     - Highly scalable multi-brand setup with minimal overhead by leveraging complex CI/CD pipelines
-    - A custom communication system between native (iOS, Android) apps and embedded web views
+    - Custom communication system between native (iOS, Android) apps and embedded web views
 
 
 ## IU International University
