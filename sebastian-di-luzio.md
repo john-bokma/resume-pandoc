@@ -101,13 +101,13 @@ MagiBot
 
  : A Discord bot that helps voice-chat focused servers build communities.
    It is currently serving 1.000.000+ users in over 2500 guilds:
-   [MagiBot](https://github.com/maybeanerd/MagiBot).
+   [MagiBot](https://github.com/maybeanerd/MagiBot)
 
 home-cluster
 
  : Collection of helmcharts and configuration to define the infrastructure
    of a self hosted kubernetes cluster running on four arm-based nodes:
-   [home-cluster](https://github.com/maybeanerd/home-cluster).
+   [home-cluster](https://github.com/maybeanerd/home-cluster)
 
 api-trader-game
 
