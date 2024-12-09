@@ -1,8 +1,8 @@
 ---
 name: Sebastian Di Luzio
-keywords: perl, modern perl, cpan, cgi, nginx, apache, algorithms,
-    freelance, msc, senior perl developer, xml, xslt, mysql, crawling,
-	scraping, remote, parsing, plack, git, api, testing
+keywords: typescript, javascript, vue, vuejs, nest, nestjs, express, node, nodejs, fastify, npm, postgresql,
+          sql, aws, docker, kubernetes, container, gitlab, github, graphql, tailwind, api, testing, architecture,
+          senior software engineer, senior web developer
 left-column:
   - 'Senior Software Engineer'
   - 'Email: [sebastian@diluz.io](mailto:sebastian@diluz.io)'
@@ -27,15 +27,13 @@ TODO write how cool I am
 # Experience
 
 
-## SF Metrics
+## IU International University
 
-**August 2015 - present**; remote, part-time
+**October 2021 - present**; full-time
 
-Skills used:
+Technolgies used:
 
-: Modern Perl, LWP::UserAgent, Log::Log4perl, Test::Most, Text::Diff,
-    XML::Parser, DBI, Config::Tiny, Try::Tiny, Path::Tiny, Plack, JSON,
-    git, MySQL, GitHub, Emacs Org Mode, Markdown, NGINX, SEO.
+: TypeScript, Node.js, Nest.js, Vue.js, Tailwind, AWS, Docker, GitLab, GraphQL
 
 Role overview:
 
@@ -80,20 +78,25 @@ Technical University of Munich
 
 # Side Projects
 
-tumblelog
+MagiBot
 
- : A static HTML5 microblog generator with support for RSS and JSON
-   feeds written in Perl. A Python version with identical
-   functionality is also available in the same repository:
-   [tumblelog](https://github.com/john-bokma/tumblelog).
+ : A Discord bot that helps voice-chat focused servers build communities.
+   It is currently serving 1.000.000+ users in over 2500 guilds. Repository:
+   [MagiBot](https://github.com/maybeanerd/MagiBot).
 
-resume-pandoc
+home-cluster
 
- : LaTeX resume template for Pandoc based on a LaTeX resume by Jason
-   R. Blevins. The template can be used to create either a LaTeX or
-   PDF file given a Markdown file as input. The template was used to
-   create this resume. Repository:
-   [resume-pandoc](https://github.com/john-bokma/resume-pandoc).
+ : Collection of helmcharts and configuration to define the infrastructure
+   of a self hosted kubernetes cluster running on four arm-based nodes:
+   [home-cluster](https://github.com/maybeanerd/home-cluster).
+
+api-trader-game
+
+ : A self hostable game server to run a cooperative idle crafting and trading game which
+   federates with other game servers using the ActivityPub protocol.
+   Repository: [api-trader-game](https://github.com/maybeanerd/selfhosted-api-trader-game)
+
+
 
 Languages
 
