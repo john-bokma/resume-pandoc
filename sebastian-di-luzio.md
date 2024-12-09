@@ -16,7 +16,7 @@ right-column:
 
 I'm a Senior Software Engineer focused on full stack web development all around TypeScript.
 
-I like focusing on developer experience and shared solutions to enable others, leveraging shared libraries, systems for CI/CD or creating first party tooling within the company.
+I like focusing on developer experience and shared solutions to enable other developers, leveraging shared libraries, systems like CI/CD or creating first party tooling within the company.
 
 When it comes to building features for end users, I enjoy taking end to end ownership, including both the backend and actual user interface.
 
@@ -118,4 +118,4 @@ api-trader-game
 
 Languages
 
-: German (native), English (native).
+: German (native), English (native)
