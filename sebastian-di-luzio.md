@@ -7,8 +7,8 @@ left-column:
   - 'Senior Software Engineer'
   - 'Email: [sebastian@diluz.io](mailto:sebastian@diluz.io)'
 right-column:
-  - 'GitHub: [https://github.com/maybeanerd](https://github.com/maybeanerd)'
-  - 'Homepage: [https://diluz.io](https://diluz.io)'
+  - 'GitHub: [github.com/maybeanerd](https://github.com/maybeanerd)'
+  - 'Homepage: [diluz.io](https://diluz.io)'
   - 'Last Updated: \today'
 ...
 
@@ -81,7 +81,7 @@ Technical University of Munich
 MagiBot
 
  : A Discord bot that helps voice-chat focused servers build communities.
-   It is currently serving 1.000.000+ users in over 2500 guilds. Repository:
+   It is currently serving 1.000.000+ users in over 2500 guilds:
    [MagiBot](https://github.com/maybeanerd/MagiBot).
 
 home-cluster
@@ -93,8 +93,7 @@ home-cluster
 api-trader-game
 
  : A self hostable game server to run a cooperative idle crafting and trading game which
-   federates with other game servers using the ActivityPub protocol.
-   Repository: [api-trader-game](https://github.com/maybeanerd/selfhosted-api-trader-game)
+   federates with other game servers using the [ActivityPub](https://www.w3.org/TR/activitypub/) protocol: [api-trader-game](https://github.com/maybeanerd/selfhosted-api-trader-game)
 
 
 
