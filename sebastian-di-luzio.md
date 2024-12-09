@@ -14,60 +14,79 @@ right-column:
 
 # Summary
 
-I'm a Senior Software Engineer focused on full stack web development all around TypeScript. 
+I'm a Senior Software Engineer focused on full stack web development all around TypeScript.
 
-<!-- I'm an active proponent of Modern Perl. I like writing technical
-documentation and unit tests; both have saved my customers and I a
-lot of time over the years. I prefer to reuse tested code as much as
-possible, hence I often start a project with researching available
-solutions on CPAN. -->
+I like focusing on developer experience and shared solutions to enable others, leveraging shared libraries, systems for CI/CD or creating first party tooling within the company.
 
-TODO write how cool I am
+When it comes to building features for end users, I enjoy taking end to end ownership, including both the backend and actual user interface.
+
+Providing technical leadership is a role I flourish in, be it organizing initiatives such as software guilds, adopting new technologies or defining architectures for entire systems.
+
 
 # Experience
 
 
 ## IU International University
 
-**October 2021 - present**; full-time
+**April 2024 - present**; Technical Lead, Senior Software Engineer
 
 Technolgies used:
 
-: TypeScript, Node.js, Nest.js, Vue.js, Tailwind, AWS, Docker, GitLab, GraphQL
+: TypeScript, Node.js, Nest.js, Vue.js, Single-SPA, Tailwind, AWS, Docker, GitLab, PostgreSQL
 
-Role overview:
+Overview:
 
-:   - Developed a program to import a "JSON per line" database dump
-	  into a MySQL database. I reverse engineered the file format,
-	  designed the 70+ MySQL database tables, and added logic to avoid
-	  duplicate code.
+:  Building and maintaining the foundation of the platform for students. Providing core services and utilities as well as a platform for feature teams to build upon, enabling multiple cross department initiatives to bring a new user experience to over 150K students.
 
-    - Developed a web crawler that downloads XML data, verifies this
-      data, gathers some statistics, and stores desired data and
-      statistics in a MySQL database. I am also reponsible for writing
-      all the technical documentation, specifications, and example SQL
-      queries. (ongoing)
+Highlights:
 
-    - Developed several tools for analyzing search engine result pages
-      (SERPs) (ongoing)
+:   - Enriching the developer experience
+    - Orchestration of 15+ microfrontends by 9+ teams
+    - Stewardship of a shared component library
+    - Highly scalable multi-brand setup with minimal overhead by leveraging complex CI/CD pipelines
+    - A custom communication system between native (iOS, Android) apps and embedded web views
 
-    - Porting Perl programs to the Go programming language. (ongoing)
 
-    - Developed modules for storing data in Amazon's S3.
+## IU International University
 
-Interesting challenges:
+**October 2021 - March 2024**; Software Engineer
 
-:   Because the web crawler program downloads data from the Internet
-    it must be able to handle timeouts, partial downloads,
-    etc. Moreover the XML parser must be able to distinguish between
-    errors that can be safely ignored because they won’t affect the
-    desired data much, and fatal errors. As a single crawl can gather
-    a lot of data, hence the MySQL database must be designed to deal
-    with querying tens of millions of rows of data in mind.
-:   The database dump program required several refactoring steps to
-    avoid code repetition. Great care had to be taken to verify the
-    types of JSON data and to verify all IDs had the correct type and
-    were matching up in the original dump.
+Technolgies used:
+
+: TypeScript, Node.js, Nest.js, Vue.js, Tailwind, AWS, Docker, GitLab, GraphQL, MongoDB, PostgreSQL
+
+Overview:
+
+:  Moving across multiple teams for both existing products as well as new initiatives to bring the product and technical platforms to the next level.
+
+Highlights:
+
+:   - Microservices providing complex use cases like offline sync for native apps
+    - Leading company wide topics across software engineering guild and community of practices
+    - Microfrontends that are used across platforms within multiple clients
+    - Establishing standards for tooling and formatting across multiple teams and projects
+    - Migrating from Bitbucket to GitLab, reworking CI/CD to provide a shared pipeline approach
+
+## flint.gg
+
+**August 2018 - July 2021**; Co-Founder, CTO
+
+Technolgies used:
+
+: TypeScript, Node.js, Nuxt, Vue.js, AWS, GitHub, PostgreSQL
+
+Overview:
+
+:   Founding of startup for a social network that connects gamers across games and platforms by enabling them to easily represent themselves. Worked with designers and developers to bring the product to life from scratch, convincing multiple accelerators and investors.
+    
+
+Highlights:
+
+:   - 50k+ user sign-ups
+    - Dev-Lead for teams of up to 5
+    - Implementing multiple Game-APIs
+    - Building core systems like authentification, chat, matchmaking
+    - Collecting 180.000€ in funding
 
 
 # Education
