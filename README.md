@@ -20,18 +20,35 @@ pandoc perl-programmer-john-bokma-resume.md -f markdown+yaml_metadata_block \
   -o perl-programmer-john-bokma-resume.pdf
 ~~~
 
+## Using Docker
+
+Create the Docker container image using:
+
+```
+docker build --tag=resume-pandoc .
+```
+
+And run it using:
+
+```
+docker run --rm --volume "`pwd`:/data" --user `id -u`:`id -g` \
+    resume-pandoc perl-programmer-john-bokma-resume.md \
+                  -f markdown+yaml_metadata_block \
+                  --template templates/jb2resume.latex \
+                  -o perl-programmer-john-bokma-resume.pdf
+```
+
+
+For more information, please read my blog entry
+[Giving Docker Desktop for macOS a Second
+Chance](http://johnbokma.com/blog/2021/06/02/giving-docker-desktop-for-macos-a-second-chance.html),
+which provides an easy walk-through.
+
 ## Getting Started on Ubuntu 17.04
 
 Please read my blog entry
 [Installing the latest version of Pandoc on Ubuntu 17.04](http://johnbokma.com/blog/2017/05/17/installing-latest-pandoc-on-ubuntu.html), which
 provides an easy walk-through.
-
-## Using Docker
-
-Please read my blog entry
-[Giving Docker Desktop for macOS a Second
-Chance](http://johnbokma.com/blog/2021/06/02/giving-docker-desktop-for-macos-a-second-chance.html),
-which provides an easy walk-through.
 
 ## YAML Meta Block
 
