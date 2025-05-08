@@ -97,7 +97,7 @@ sans serif bold you can just use the color `black`.
 
 # Example PDF
 
-See [http://castleamber.com/documents/perl-programmer-john-bokma-resume.pdf](http://castleamber.com/documents/perl-programmer-john-bokma-resume.pdf).
+See [http://johnbokma.com/documents/perl-programmer-john-bokma-resume.pdf](http://johnbokma.com/documents/perl-programmer-john-bokma-resume.pdf).
 
 # Credits
 
