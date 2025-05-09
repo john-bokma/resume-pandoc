@@ -1,36 +1,35 @@
 ---
 name: John Bokma
 keywords: perl, modern perl, cpan, cgi, nginx, apache, algorithms,
-    freelance, msc, senior perl developer, xml, xslt, mysql, crawling,
-	scraping, remote, parsing, plack, git, api, testing
+    msc, senior perl developer, python, xml, xslt, mysql, crawling,
+    scraping, remote, parsing, plack, git, api, testing
 left-column:
   - 'Senior Perl Developer located in the Netherlands'
-  - 'Email: [john@castleamber.com](mailto:john@castleamber.com)'
-  - 'Skype: john-bokma'
-right-column:
+  - 'Email: [contact@johnbokma.com](mailto:contact@johnbokma.com)'
   - 'GitHub: [https://github.com/john-bokma/](https://github.com/john-bokma/)'
-  - 'Homepage: [http://castleamber.com/](http://castleamber.com/)'
-  - 'Personal Site: [http://johnbokma.com/](http://johnbokma.com/)'
+right-column:
+  - 'Personal Blog: [http://johnbokma.com/blog/](http://johnbokma.com/blog/)'
   - 'Last Updated: \today'
 ...
 
 # Summary
 
-I am a freelance Senior Perl Developer with over 26 years' experience,
-including exposure to web scraping, data wrangling, Git, MySQL,
-NGINX, Apache HTTP Server, Python, XSLT, XML, RelaxNG, HTML, and CSS.
+I am a Senior Perl Developer with over 30 years of experience,
+including expertise in web scraping, data wrangling, Git, MySQL,
+NGINX, the Apache HTTP Server, Python, XSLT, XML, RelaxNG, HTML, and
+CSS.
 
 I'm an active proponent of Modern Perl. I like writing technical
-documentation and unit tests; both have saved my customers and I a
-lot of time over the years. I prefer to reuse tested code as much as
-possible, hence I often start a project with researching available
+documentation and unit tests. I prefer to reuse tested code as much as
+possible, hence I often start a project by researching available
 solutions on CPAN.
 
 My personal development projects consist of several in-house tools,
 including a static website and blog generator using XML as input
 format. Currently, I am working on a new version using Markdown for
-input instead. I also wrote a small static microblog generator, which
-is available on GitHub in both a Perl and a Python version.
+input instead. Additionally, I have created a static microblog
+generator, which is available on GitHub in both a Perl and a Python
+version.
 
 # Skills
 
@@ -38,29 +37,29 @@ is available on GitHub in both a Perl and a Python version.
 
 Web Scraping
 
-: Over the years many projects I've been working on involved crawling,
-  caching, parsing, and storing the desired result in a database.  I
-  like the challenges such projects offer, like making the web
-  crawlers robust and be able to deal with the intricacies of the
-  Internet and its data. Regarding the latter, this is why I prefer
-  strict parsing of data, with many checks and extensive logging using
-  Log::Log4perl and good test coverage. This way changes to the HTML
-  of scraped web pages, which often occurs in my experience, are
-  detected early and collecting invalid data or missing additional
-  data might be avoided.
+: Over the years, many projects I've been working on involved
+  crawling, caching, parsing, and storing the desired result in a
+  database.  I like the challenges such projects offer, like making
+  web crawlers robust and able to deal with the intricacies of the
+  Internet and its data. This is why I prefer strict parsing of data,
+  with many checks and extensive logging using Log::Log4perl and good
+  test coverage. This way, changes to the HTML of scraped web pages,
+  which often occur in my experience, are detected early and the
+  collection of invalid data or missing additional data might be
+  avoided.
 
 Parsing
 
-: Besides parsing HTML I’ve also experience with parsing XML, several
-  custom formats, and domain-specific languages (DSLs).
+: Besides parsing HTML, I also have experience with parsing XML,
+  several custom formats, and domain-specific languages (DSLs).
 
 Data Wrangling
 
-: Another task that often is assigned to me is the conversion of data
-  from one format to another; including data cleaning and
-  verification. For example, modifying the text output of a legacy
+: Other tasks that are often assigned to me are the conversion of data
+  from one format to another, including data cleaning and
+  verification, for example, modifying the text output of a legacy
   application in such a way that the new output is suitable to be
-  printed on redesigned labels. Often the input format has to be
+  printed on redesigned labels. Often, the input format has to be
   reverse engineered and documented; a challenge I like.
 
 Testing
@@ -70,33 +69,14 @@ Testing
   provides the most commonly used testing functions with a single
   line, avoiding a lot of boilerplate.
 
-## Systems Administration
-
-My main Perl development environment is currently Ubuntu 19.04 Disco
-Dingo running in a virtual machine on MacOS. I also use two different
-VPS providers for hosting my websites. I do the administration of each
-of those systems, e.g. updates, firewall rules, and other security
-related tasks, installing and configuring software e.g. Apache HTTP
-server, NGINX, Postfix, Dovecot, OpenSSH, and MySQL.
-
 ## Documentation
 
 I like to write technical documentation. I prefer to use markup
 languages like Org Mode (Emacs), Markdown, and LaTeX. The use of plain
 text makes version control and searching from the command line
-easily. Plain text also makes it very easy to generate code from the
+easy. Plain text also makes it easy to generate code from the
 documentation and vice versa. Where required, PDF versions can be
 generated using tools like Emacs, Pandoc, and pdflatex.
-
-## Remote Work
-
-I exclusively work remotely. Over the past years, I have worked with
-customers in Japan, USA, The Netherlands, and Canada. Working from
-home provides me with a productive environment with a minimal number
-of interruptions. I use the Internet to stay in touch with peers and
-my craft. I prefer to communicate using email. I have experience with
-encrypted email using GnuPG, SSH with public key encryption, Git,
-Subversion, and Github.
 
 ## Other
 
@@ -106,9 +86,34 @@ HTML, CSS, Search Engine Optimization (SEO).
 
 # Experience as Senior Perl Developer
 
+## DELTA Fiber
+
+**January 2022 - present**; employed
+
+Skills used:
+
+: Perl, in-house modules, CPAN modules, MySQL, SQLite, Java, Python,
+  Apache Airflow, git, GitLab.
+
+Role overview:
+
+:   - Maintenance of existing middleware code base (Perl).
+    - Writing unit tests and integration tests (Perl).
+    - Greatly reduced the runtime (hours to minutes) of an import
+      program by using SQLite (Perl).
+    - Wrote a DAG for Apache Airflow to download data and update a
+      database table accordingly (Python).
+    - Maintenance and extension of existing microservices, including the
+      writing of unit tests (Java).
+    - Added CGNAT to the provisioning chain (Perl).
+    - Added support for "Free modem choice" to the provisioning chain (Perl).
+    - Wrote a Python program to add accounts in bulk from a CSV
+      file generated by Excel.
+    - Added DataDog tracing to various cron job scripts (Perl).
+
 ## Peppels.net
 
-**January 2019 - present**; remote, part-time
+**January 2019 - August 2021**; remote, part-time
 
 Skills used:
 
@@ -118,56 +123,49 @@ Skills used:
 Role overview:
 
 :   - Maintenance of existing code base.
-
     - Turning graphic designs into responsive HTML and CSS3.
-
     - Complete redesign of the existing login page for both mobile and desktop.
-
-    - Adding additional PDF printing support.
-
-    - Adding support for portfolio pages for both mobile and desktop.
-
+    - Addition of PDF printing support.
+    - Addition of support for portfolio pages for both mobile and
+      desktop.
     - Testing and adjusting mobile design.
+    - (Re)writing MySQL queries.
 
 ## SF Metrics
 
-**August 2015 - present**; remote, part-time
+**August 2015 - October 2019**; remote, part-time
 
 Skills used:
 
 : Modern Perl, LWP::UserAgent, Log::Log4perl, Test::Most, Text::Diff,
     XML::Parser, DBI, Config::Tiny, Try::Tiny, Path::Tiny, Plack, JSON,
-    git, MySQL, GitHub, Emacs Org Mode, Markdown, NGINX, SEO.
+    git, MySQL, GitHub, Emacs Org-Mode, Markdown, NGINX, SEO.
 
 Role overview:
 
-:   - Developed a program to import a "JSON per line" database dump
-	  into a MySQL database. I reverse engineered the file format,
-	  designed the 70+ MySQL database tables, and added logic to avoid
-	  duplicate code.
-
+:   - Data conversion: developed a program to import a "JSON per line"
+	  database dump into a MySQL database. I reverse engineered the
+	  file format, designed the 70+ MySQL database tables, and added
+	  logic to avoid duplicate code.
     - Developed a web crawler that downloads XML data, verifies this
       data, gathers some statistics, and stores desired data and
-      statistics in a MySQL database. I am also reponsible for writing
-      all the technical documentation, specifications, and example SQL
-      queries. (ongoing)
-
-    - Developed several tools for analyzing search engine result pages
-      (SERPs) (ongoing)
-
-    - Porting Perl programs to the Go programming language. (ongoing)
-
+      statistics in a MySQL database. I am also responsible for
+      writing all the technical documentation, specifications, and
+      example SQL queries.
+    - Web scraping: developed several tools for analyzing search
+      engine result pages (SERPs).
+    - Porting Perl programs to the Go programming language.
     - Developed modules for storing data in Amazon's S3.
 
 Interesting challenges:
 
-:   Because the web crawler program downloads data from the Internet
+:   Because the web crawler program downloads data from the Internet,
     it must be able to handle timeouts, partial downloads,
-    etc. Moreover the XML parser must be able to distinguish between
-    errors that can be safely ignored because they won’t affect the
-    desired data much, and fatal errors. As a single crawl can gather
-    a lot of data, hence the MySQL database must be designed to deal
-    with querying tens of millions of rows of data in mind.
+    etc. Moreover, the XML parser must be able to distinguish between
+    errors that can be safely ignored because they won’t significantly
+    affect the desired data much, and fatal errors. As a single crawl
+    can gather a lot of data, the MySQL database must be designed to
+    deal with querying tens of millions of rows of data in mind.
 :   The database dump program required several refactoring steps to
     avoid code repetition. Great care had to be taken to verify the
     types of JSON data and to verify all IDs had the correct type and
@@ -183,67 +181,57 @@ Skills used:
     Test::Most, Test::More, Test::Output, JSON::XS, DBI, Try::Tiny,
     XML::Parser, XML::Writer, Email::Sender, Text::CSV_XS,
     MaxMind::DB::Reader, Dancer2, MySQL, RelaxNG, XSLT, Apache Ant,
-    git, VirtualBox, NGINX, cron, Emacs Org Mode, OpenSSL, iptables,
+    git, VirtualBox, NGINX, cron, Emacs Org-Mode, OpenSSL, iptables,
     HTML, CSS, GNU Privacy Guard (GPG).
 
 Role overview:
 
 :   - Developed several web crawling Perl programs for gathering
-      security related data, each crawler exporting downloaded data as
+      security-related data, each crawler exports downloaded data as
       a CSV file.
-
     - Developed a Perl program that downloads security related data
       from several sources, verifies, cleans, normalizes the data, and
-      export it as an XML file.
-
+      exports it as an XML file (data conversion).
     - Developed a Perl program that post-processes the exported XML
       data to remove duplicate entries and overlapping IP ranges using
       a binary search algorithm.
-
     - Developed a Perl program that parses log files (Log4Perl)
       generated by aforementioned programs, creates reports, and
       emails those reports.
-
     - Developed a Dancer2 web application to manually enter IP ranges
       and related security data and store this information into a
       MySQL database.
-
     - Configured virtual machines for each of the Perl programs,
-      including designing firewall rules, and allowing access via
+      including designing firewall rules and allowing access via
       `rsync` and HTTPS in a secure manner where required. Documented
-      the entire process of configuration and installation in great detail.
-
+      the entire process of configuration and installation in great
+      detail.
     - Wrote documentation on how to create certificates to allow
       client side certificate authentication in NGINX (HTTPS), and
       configuring NGINX accordingly.
-
     - Wrote extensive tests for all developed custom Perl modules
       and scripts.
-
-    - Designed file formats (XML, CSV). Documented each format in Org
-      Mode format (Emacs).
-
+    - Designed file formats (XML, CSV). Documented each format in
+      Org-Mode format (Emacs).
     - Designed Relax NG schemata to validate XML files.
-
 	- Wrote XSLT to transform XML output to older formats in order to
 	  support client programs that require an older format prior to
-	  being safely updated.
-
+	  being safely updated (data conversion).
     - Wrote extensive technical documentation in Org Mode format
       (Emacs).
 
 Interesting challenges:
 
-:   Because the generated XML file is used in security related
-    applications great care had to be taken to verify the integrity of
-    the downloaded data and make sure that malformed data wouldn’t end
-    up in the final XML file. Because the generated data is used in
-    programs written and maintained by other programmers, clear
-    specifications and well-written documentation was mandatory. In
-    order to keep this documentation under version control Emacs’ Org
-    Mode was used to write in plain text and convert it to, for
-    example, PDF. Due to the asynchronous nature of the various
-    programs care had to be taken to avoid race conditions.
+:   Because the generated XML file is used in security-related
+    applications, great care had to be taken to verify the integrity
+    of the downloaded data and make sure that malformed data wouldn’t
+    end up in the final XML file. Because the generated data is used
+    in programs written and maintained by other programmers, clear
+    specifications and well-written documentation was mandatory. To
+    keep this documentation under version control, Emacs’ Org Mode was
+    used to write in plain text and convert it to, for example,
+    PDF. Due to the asynchronous nature of the various programs care
+    had to be taken to avoid race conditions.
 
 # Education
 
@@ -258,24 +246,23 @@ Utrecht University, Utrecht, The Netherlands
 
 # Courses
 
+Kepner-Tregoe
+
+: Resolve workshop; four days in 2023.
+
 DelftX: FP101x Introduction to Functional Programming
 
 : Functional Programming, Haskell, Monads; final grade: 98%; December 2014;
-  [course info](https://courses.edx.org/courses/DelftX/FP101x/3T2014/info);
   [verified certificate (PDF)](https://s3.amazonaws.com/verify.edx.org/downloads/6d4d4270a06545ecbdc12f4a9c5cafa4/Certificate.pdf).
 
 Introduction to Big Data with Apache Spark
 
 : Apache Spark, Python, Vagrant; final grade: 100%; July 2015;
-  [course info](https://courses.edx.org/courses/BerkeleyX/CS100.1x/1T2015/info)
-  ;
   [verified certificate (PDF)](https://s3.amazonaws.com/verify.edx.org/downloads/f94790bd236c48ca9e943fa50c5d8c48/Certificate.pdf).
 
 Scalable Machine Learning
 
 : Apache Spark, Python, Vagrant; final grade: 100%; August 2015;
-  [course info](https://courses.edx.org/courses/BerkeleyX/CS190.1x/1T2015/info)
-  ;
   [verified certificate (PDF)](https://s3.amazonaws.com/verify.edx.org/downloads/90d3c61ff8bb49d080c914dbfa1aa1e7/Certificate.pdf).
 
 # GitHub
@@ -323,4 +310,4 @@ Languages
 
 : Dutch (native), English (fluent).
 
-My [resume](http://castleamber.com/documents/perl-programmer-john-bokma-resume.pdf) (PDF)
+My [resume](http://johnbokma.com/documents/perl-programmer-john-bokma-resume.pdf) (PDF)
