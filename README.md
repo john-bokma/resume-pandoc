@@ -4,7 +4,18 @@ LaTeX resume template for Pandoc based on Jason R. Blevins' template;
 http://jblevins.org/projects/cv-template/.
 
 I've included my own resume in markdown format as an example.
-To create the LaTeX version, use:
+
+There is a MAKEFILE available to automatically compile LaTeX and PDF versions of resumes in the `markdown/` folder. All outputted files will be in `output/`.
+
+To use the MAKEFILE, run:
+
+~~~
+make
+~~~
+
+The MAKEFILE uses the following individual commands to compile all `.md` files in `markdown/` to LaTeX and PDF.
+
+To create a LaTeX version, use:
 
 ~~~
 pandoc perl-programmer-john-bokma-resume.md -f markdown+yaml_metadata_block \
@@ -12,12 +23,20 @@ pandoc perl-programmer-john-bokma-resume.md -f markdown+yaml_metadata_block \
   -o perl-programmer-john-bokma-resume.tex
 ~~~
 
-And to create the PDF version, use:
+And to create a PDF version, use:
 
 ~~~
 pandoc perl-programmer-john-bokma-resume.md -f markdown+yaml_metadata_block \
   --template templates/jb2resume.latex \
   -o perl-programmer-john-bokma-resume.pdf
+~~~
+
+The MAKEFILE will use a specified template in the `templates/` folder. The template filename (excluding `.latex`) should be inputted in line 4 of the MAKEFILE.
+
+For example, to use the `templates/jb2resume.latex` template, line 4 of the MAKEFILE should be:
+
+~~~
+STYLE=jb2resume
 ~~~
 
 ## Using Docker
